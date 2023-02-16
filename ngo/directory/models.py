@@ -14,11 +14,11 @@ class OrgDirectory(models.Model):
         return self.name
 
 
-class Events(models-Model):
+class Events(models.Model):
     name = models.CharField(max_length=254, null=False, blank=False)
     time = models.TimeField()
     date = models.DateField()
-    org = models.ForeignKey(OrgDirectory, on_delete=SET_NULL)
+    org = models.ForeignKey(OrgDirectory, null=True, on_delete=models.SET_NULL)
     location = models.CharField(max_length=254, null=False, blank=False)
     summary = models.CharField(max_length=2000, null=False, blank=False)
     website = models.CharField(max_length=254, null=True, blank=True)
