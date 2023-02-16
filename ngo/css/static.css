@@ -19,30 +19,51 @@ h1, h2 {
     color: ;
 }
 
-header {
-    /* background-color: red; */
-    height: 900px;
-}
 
-#logo {
-    position: absolute;
-
+#logo img{
+    float: left;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: 50px;
 }
 
 #menu  {
     font-size: 150%;
     letter-spacing: 4px;
+    margin-right: 30px;
 }
 
 #menu li{
     float: right;
     list-style: none;
-    margin-right: 30px;
+    margin-top: 85px;
     background-color: rgba(171, 58, 45, 0.6);
-    padding: 10px;
+    padding: 20px;
 }
 
 #menu a{
     text-decoration: none;
     color: #fcfcfc;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #fcfcfc;
+}
+
+/* hero image*/
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
 }
