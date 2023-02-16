@@ -1,13 +1,18 @@
 from django.contrib import admin
 
-
-class PlayAdmin(admin.ModelAdmin):
+class OrgDirectoryAdmin(admin.ModelAdmin):
     list_display = (
         'name',
-        'description',
-        'image',
+        'work',
+        'location',
+        'summary',
+        'website',
+        'facebook',
+        'instagram',
     )
 
     ordering = (
         'name',
     )
+
+admin.site.register(OrgDirectory, OrgDirectoryAdmin)
