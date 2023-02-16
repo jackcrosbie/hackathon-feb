@@ -1,8 +1,48 @@
+
 * {
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: ;
+    font-weight: 300; 
+    color: ;
+}
+
+/* heading and logo*/
+
+h1, h2 {
+    font-family: ;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: ;
+}
+
 header {
-    
+    /* background-color: red; */
+    height: 900px;
+}
+
+#logo {
+    position: absolute;
+
+}
+
+#menu  {
+    font-size: 150%;
+    letter-spacing: 4px;
+}
+
+#menu li{
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+    background-color: rgba(171, 58, 45, 0.6);
+    padding: 10px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #fcfcfc;
 }
