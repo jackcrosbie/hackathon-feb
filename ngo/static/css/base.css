@@ -64,7 +64,7 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../../media/images/hero-image.jpg') no-repeat center center;
     background-size: cover;
 }
 
