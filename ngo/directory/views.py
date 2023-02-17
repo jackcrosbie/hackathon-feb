@@ -8,7 +8,7 @@ def organisations(request):
     """ See all plays available """
     orgs = OrgDirectory.objects.all()
 
-    template = "orgs.html"
+    template = "directory/index.html"
     context = {
         'orgs': orgs,
     }
