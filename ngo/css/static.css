@@ -77,7 +77,13 @@ h2 {
 /* ---------------------------------------- image carousel */
 .image-carousel {
     height: 100vh;
+    width: auto;
     display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    background-color: black;
+    align-items: center;
+    flex-direction: column;
 }
 
 .slide {
@@ -94,14 +100,15 @@ h2 {
     object-fit: cover;
 }
 
+.buttons {
+    padding-top: 2%;
+    margin: 0 auto;
+}
+
 .btn {
-    position: relative;
-    width: 40px;
-    height: 40px;
     padding: 10px;
     border: none;
-    border-radius: 50%;
-    z-index: 10px;
+    border-radius: 5%;
     cursor: pointer;
     background-color: #fff;
     font-size: 18px;
@@ -109,16 +116,6 @@ h2 {
 
 .btn:active {
     transform: scale(1.1);
-}
-
-.btn-prev {
-    top: 45%;
-    left: 2%;
-}
-
-.btn-next {
-    top: 45%;
-    right: 2%;
 }
 
 .slider {
