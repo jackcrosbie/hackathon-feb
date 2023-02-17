@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,13 +5,14 @@
 
 body {
     font-family: 'Helvetica St', sans-serif;
-    font-weight: 300; 
+    font-weight: 300;
     color: #585b5d;
 }
 
 /* ---------------------------------------- heading and logo*/
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Helvetica Lt Std Condensed', 'Helvetica Std Bold Condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -20,7 +20,7 @@ h1, h2 {
 }
 
 
-#logo img{
+#logo img {
     float: left;
     height: 125px;
     width: 125px;
@@ -30,13 +30,13 @@ h1, h2 {
     top: 50px;
 }
 
-#menu  {
+#menu {
     font-size: 150%;
     letter-spacing: 4px;
     margin-right: 30px;
 }
 
-#menu li{
+#menu li {
     float: right;
     list-style: none;
     margin-top: 85px;
@@ -44,12 +44,12 @@ h1, h2 {
     padding: 20px;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: #585b5d;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #585b5d;
 }
 
@@ -58,20 +58,74 @@ h1, h2 {
 #hero-outer {
     height: 600px;
     width: 100%;
-    
+
 }
 
-#hero-image{
+#hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
 }
 
-#world-ngo-logo{
-    
+#world-ngo-logo {}
+
+#cover-text {
+    float: left;
 }
 
-#cover-text{
-    float: left;
+/* ---------------------------------------- image carousel */
+.image-carousel {
+    height: 100vh;
+    display: flex;
+}
+
+.slide {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.btn:active {
+    transform: scale(1.1);
+}
+
+.btn-prev {
+    top: 45%;
+    left: 2%;
+}
+
+.btn-next {
+    top: 45%;
+    right: 2%;
+}
+
+.slider {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
 }
