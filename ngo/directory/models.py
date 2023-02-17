@@ -22,3 +22,6 @@ class Events(models.Model):
     location = models.CharField(max_length=254, null=False, blank=False)
     summary = models.CharField(max_length=2000, null=False, blank=False)
     website = models.CharField(max_length=254, null=True, blank=True)
+
+    def __str__(self):
+        return self.name
