@@ -5,18 +5,18 @@
 }
 
 body {
-    font-family: ;
+    font-family: 'Helvetica St', sans-serif;
     font-weight: 300; 
-    color: ;
+    color: #585b5d;
 }
 
 /* heading and logo*/
 
 h1, h2 {
-    font-family: ;
+    font-family: 'Helvetica Lt Std Condensed', 'Helvetica Std Bold Condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: ;
+    color: #ff7e20;
 }
 
 
@@ -40,17 +40,17 @@ h1, h2 {
     float: right;
     list-style: none;
     margin-top: 85px;
-    background-color: rgba(171, 58, 45, 0.6);
+    background-color: rgba(255, 126, 32, 0.6);
     padding: 20px;
 }
 
 #menu a{
     text-decoration: none;
-    color: #fcfcfc;
+    color: #585b5d;
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #fcfcfc;
+    border-bottom: 1px solid #585b5d;
 }
 
 /* hero image*/
@@ -66,4 +66,12 @@ h1, h2 {
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
+}
+
+#world-ngo-logo{
+    
+}
+
+#cover-text{
+    float: left;
 }
