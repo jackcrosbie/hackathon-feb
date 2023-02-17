@@ -16,9 +16,8 @@ h2 {
     font-family: 'Helvetica Lt Std Condensed', 'Helvetica Std Bold Condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #ff7e20;
+    color: rgb(255, 126, 32);
 }
-
 
 #logo img {
     float: left;
@@ -42,11 +41,12 @@ h2 {
     margin-top: 85px;
     background-color: rgba(255, 126, 32, 0.6);
     padding: 20px;
+    text-transform: uppercase;
 }
 
 #menu a {
     text-decoration: none;
-    color: #585b5d;
+    color: #fff;
 }
 
 #menu a:hover {
@@ -56,22 +56,43 @@ h2 {
 /* ---------------------------------------- hero image*/
 
 #hero-outer {
-    height: 600px;
+    height: 900px;
     width: 100%;
+    position: relative;
 
 }
 
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#cover-text{
+    font-size: 200%;
+    font-family: 'Helvetica Lt Std Condensed', 'Helvetica Std Bold Condensed', sans-serif;
+    letter-spacing: 4px;
+    text-transform: none;
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+    background-color: rgba(255, 126, 32, 0.6);
+    text-align: center;
+}
+
 #hero-image {
-    height: 600px;
+    height: 100%;
     width: 100%;
     background: url('../../media/images/hero-image.jpg') no-repeat center center;
     background-size: cover;
 }
 
-#world-ngo-logo {}
-
-#cover-text {
-    float: left;
+#world-ngo-logo {
+    background: url('../../media/images/world-ngo-corner-logo.png') no-repeat bottom right;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 /* ---------------------------------------- image carousel */
@@ -128,3 +149,4 @@ h2 {
 .btn:active {
     transform: scale(1.1);
 }
+
