@@ -1,16 +1,17 @@
 from django.shortcuts import render, redirect, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
-from .models import OrgDirectory, Events
+from directory.models import OrgDirectory
 
 
-def events(request):
+# Create your views here.
+def index(request):
     """ See all plays available """
-    events = Events.objects.all()
+    orgs = OrgDirectory.objects.all()
 
-    template = "directory/events.html"
+    template = "home/index.html"
     context = {
-        'events': events,
+        'orgs': orgs,
     }
 
     return render(request, template, context)
