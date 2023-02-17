@@ -80,8 +80,6 @@ h2 {
     width: auto;
     display: flex;
     justify-content: center;
-    padding-top: 10%;
-    background-color: black;
     align-items: center;
     flex-direction: column;
 }
@@ -107,7 +105,7 @@ h2 {
 
 .btn {
     padding: 10px;
-    border: none;
+    border: 2px solid black;
     border-radius: 5%;
     cursor: pointer;
     background-color: #fff;
