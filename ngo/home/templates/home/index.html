@@ -2,6 +2,7 @@
 {% load static %}
 
 {% block content %}
+<!-- Hero image section -->
 <section id="hero-outer">
   <div id="hero-image"></div>
   <div id="cover-text">
@@ -11,6 +12,7 @@
   <div id="world-ngo-logo"></div>
 </section>
 
+<!-- three pillars section -->
 <section id="three-pillars-section">
   <h2> <img src="{{MEDIA_URL}}/images/pillars.png" alt="3 pillars icon">
     Three Pillars of World NGO Day</h2>
@@ -92,12 +94,14 @@
 
   </div>
 </section>
+
+<!-- make a difference section -->
 <section class="make-difference">
-  <h2> <img src="{{MEDIA_URL}}/images/donation-icon.png" alt="hand holding a heart icon">Get Invovled. Make a
-    Difference.</h2>
-  <button class="donate">
-    <i class="fa-regular fa-hands-holding-heart"></i>
-    Please Donate To An NGO</button>
+  <div class="donate">
+    <h2> <img src="{{MEDIA_URL}}/images/donation-icon.png" alt="hand holding a heart icon">Get Invovled. Make a
+      Difference.</h2>
+      <a href="#" class="donate-btn"><i class="fa-solid fa-parachute-box"></i>  DONATE</a>
+  </div>
 
 </section>
 {% endblock %}
