@@ -1,11 +1,11 @@
 from django import forms
-from .models import OrgDirectory, Event
+from .models import Event
 
 
-class ProductForm(forms.ModelForm):
+class EventForm(forms.ModelForm):
     class Meta:
-        model = OrgDirectory
-        fields = 'location'
+        model = Event
+        fields = ('location',)
 
     def __init__(self, *args, **kwargs):
         """

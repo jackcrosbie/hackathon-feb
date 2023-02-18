@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="col-12">
+    <div class="row">
+        <form action="" method="POST" id="event-form" class="form mb-5" encrypte="multipart/form-data">
+            {% csrf_token %}
+            <h2>Add products - form</h2>
+            {% for field in form %}
+                <p class="mb-0 mt-2">{{ field.name }}:</p>{{ field }}
+            {% endfor %}
+            <br>
+            <div class="mt-4">
+                <a href=""><div class="btn btn-outline-dark">Cancel</div></a>
+                <button class="btn btn-success" type="submit">Add Product</button>
+            </div>
+            
+        </form>
+
+    </div>
+</div>
+
+{% endblock %}
