@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
-from .models import OrgDirectory, Event, Location
+from .models import Org, Event, Location
 
 
 def events(request):
@@ -20,7 +20,7 @@ def events(request):
 
 def donate(request):
     """ Return homepage """
-    orgs = OrgDirectory.objects.all()
+    orgs = Org.objects.all()
 
     template = "directory/donate.html"
     context = {

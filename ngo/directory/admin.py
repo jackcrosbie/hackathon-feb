@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import OrgDirectory, Event, Location
+from .models import Org, Event, Location
 
 
 class LocationAdmin(admin.ModelAdmin):
@@ -12,7 +12,7 @@ class LocationAdmin(admin.ModelAdmin):
     )
 
 
-class OrgDirectoryAdmin(admin.ModelAdmin):
+class OrgAdmin(admin.ModelAdmin):
     list_display = (
         'name',
         'work',
@@ -45,5 +45,5 @@ class EventAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Location, LocationAdmin)
-admin.site.register(OrgDirectory, OrgDirectoryAdmin)
+admin.site.register(Org, OrgAdmin)
 admin.site.register(Event, EventAdmin)
