@@ -47,14 +47,26 @@
             {% endfor %}
             <br>
             <div class="mt-4">
-                <a href="">
-                    <div class="btn btn-outline-dark">Cancel</div>
-                </a>
-                <button class="btn btn-success" type="submit">Add Product</button>
+                <button class="btn btn-success" type="submit">Filter</button>
             </div>
 
         </form>
 
+        {% for event in events %}
+        <div class="card ml-4">
+            <div class="card-body">
+                <h3 class="card-title text-black">{{ event.name }}</h3>
+                <p class="card-text text-muted">{{ event.org }}</p>
+                <p class="card-text text-muted">{{ event.location }}</p>
+                <p class="card-text text-muted">Date and time: {{ event.date }} {{ event.time }}</p>
+                <p class="card-text">{{ event.summary }}</p>
+                <a href="{{ event.website }}" class="text-black">Website</a>
+                <a href="{{ event.instagram }}">Instagram</a>
+                <a href="{{ event.facebook }}">Facebook</a>
+                
+            </div>
+        </div>
+        {% endfor %}
     </div>
 </div>
 
