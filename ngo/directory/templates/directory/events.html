@@ -39,20 +39,10 @@
 </section>
 <div class="col-12">
     <div class="row">
-        <form action="" method="POST" id="event-form" class="form mt-10" encrypte="multipart/form-data">
-            {% csrf_token %}
-            <h2>Add products - form</h2>
-            {% for field in form %}
-            <p class="mb-0 mt-2">{{ field.name }}:</p>{{ field }}
-            {% endfor %}
-            <br>
-            <div class="mt-4">
-                <button class="btn btn-success" type="submit">Filter</button>
-            </div>
-
-        </form>
-
+        {% for location in locations %}
+        <h2>{{ location.name }}</h2>
         {% for event in events %}
+        {% if location == event.location %}
         <div class="card ml-4">
             <div class="card-body">
                 <h3 class="card-title text-black">{{ event.name }}</h3>
@@ -63,9 +53,10 @@
                 <a href="{{ event.website }}" class="text-black">Website</a>
                 <a href="{{ event.instagram }}">Instagram</a>
                 <a href="{{ event.facebook }}">Facebook</a>
-                
             </div>
         </div>
+        {% endif %}
+        {% endfor %}
         {% endfor %}
     </div>
 </div>
