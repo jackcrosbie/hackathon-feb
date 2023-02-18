@@ -9,6 +9,10 @@ body {
     color: #585b5d;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*--- Heading and logo -------------------------*/
 
 h1,
@@ -293,4 +297,35 @@ h2 {
     background-color: white;
     color: #ff7e20;
     border: 2px solid #ff7e20;
+}
+
+/* --- Footer ------------------------ */
+footer {
+    height: 40px;
+}
+
+.social-footer {
+    text-align: center;
+    background-color: #ff7e20;
+
+}
+
+.social-footer > li {
+    display: inline;
+}
+
+.social-footer i {
+    font-size: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 5%;
+    color: white;
+}
+.social-footer > p{
+    display: inline-block;
+}
+
+.social-footer > span {
+    position: relative;
+    right: 0;
 }
