@@ -212,24 +212,41 @@ h2 {
     transform: scale(1.1);
 }
 
+/* --- Make a Difference section ------------------------ */
 .make-difference {
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
 
+.make-difference img{
+    height: 2.5em;
+    width: 2.5em;
+    margin-right: 50px;
 }
 
 .make-difference h2 {
     font-size: 350%;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 75px;
     text-align: center;
+
 }
 
-.donate {
+.donate-btn{
     background-color: #ff7e20;
     color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 15px 60px;
 
+}
+
+.donate a:hover{
+    background-color: white;
+    color: #ff7e20;
+    border: 2px solid #ff7e20;
 }
