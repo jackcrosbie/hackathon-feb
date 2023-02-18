@@ -104,6 +104,7 @@ h2 {
 
 /*----Three Pillars section ------------------*/
 #three-pillars-section {
+    height: 600px;
     width: 100%;
     margin: 50px 0;
     display: flex;
@@ -115,8 +116,44 @@ h2 {
 #three-pillars-section h2 {
     font-size: 250%;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 75px;
     text-align: center;
+}
+
+.three-pillars-content-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+}
+
+.three-pillars-headings {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 200%;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.three-pillars-ul {
+    margin-top: 20px;
+
+}
+
+.three-pillars-ul li {
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 400;
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+.commemorate {
+    padding-left: 50px;
+    padding-right: 30px;
 }
 
 
