@@ -37,10 +37,20 @@
 
 
 </section>
+<div>
+    <ul>
+        {% for location in locations %}
+        <li>
+            <a href="#{{ location.name }}-id">{{ location.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    
+</div>
 <div class="col-12">
     <div class="row">
         {% for location in locations %}
-        <h2>{{ location.name }}</h2>
+        <h2 id="{{ location.name }}-id">{{ location.name }}</h2>
         {% for event in events %}
         {% if location == event.location %}
         <div class="card ml-4">
