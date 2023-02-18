@@ -17,6 +17,14 @@ def events(request):
 
     return render(request, template, context)
 
+
 def donate(request):
     """ Return homepage """
-    return render(request, 'directory/donate.html')
+    orgs = OrgDirectory.objects.all()
+
+    template = "directory/donate.html"
+    context = {
+        'orgs': orgs,
+    }
+
+    return render(request, template, context)
