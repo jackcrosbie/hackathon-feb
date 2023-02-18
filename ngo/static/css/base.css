@@ -104,7 +104,7 @@ h2 {
 
 /*----Three Pillars section ------------------*/
 #three-pillars-section {
-    height: 600px;
+    height: 650px;
     width: 100%;
     margin: 50px 0;
     display: flex;
@@ -114,9 +114,10 @@ h2 {
 }
 
 #three-pillars-section h2 {
-    font-size: 250%;
+    font-size: 350%;
     font-weight: 600;
-    margin-bottom: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -130,7 +131,7 @@ h2 {
 .three-pillars-headings {
     margin-bottom: 20px;
     width: 100%;
-    font-size: 200%;
+    font-size: 300%;
     font-weight: 700;
     text-align: center;
 
@@ -145,18 +146,16 @@ h2 {
     list-style-type: none;
     margin: 0 auto;
     text-align: center;
-    font-size: 80%;
+    font-size: 60%;
     font-weight: 400;
     width: 80%;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .commemorate {
     padding-left: 50px;
     padding-right: 30px;
 }
-
-
 
 
 /* --- Image carousel ------------------------ */
@@ -169,7 +168,6 @@ h2 {
     align-items: center;
     flex-direction: column;
 }
-
 
 .slider {
     width: 100%;
@@ -212,4 +210,26 @@ h2 {
 
 .btn:active {
     transform: scale(1.1);
+}
+
+.make-difference {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.make-difference h2 {
+    font-size: 350%;
+    font-weight: 600;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.donate {
+    background-color: #ff7e20;
+    color: white;
+
 }
