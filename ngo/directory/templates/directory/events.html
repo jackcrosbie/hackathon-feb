@@ -2,18 +2,54 @@
 {% load static %}
 
 {% block content %}
+<!-- Hero image section -->
+<section id="hero-outer">
+    <div id="hero-image"></div>
+    <div id="world-ngo-logo"></div>
+    <div id="events-cover-text">
+        <h2>Participate in an Event </h2>
+        <h3>Raise funds for NGOs</h3>
+    </div>
+</section>
+
+<!-- three pillars section -->
+<section id="three-pillars-section">
+    <h2> <img src="{{MEDIA_URL}}/images/events-icon.png" alt="events icon">
+        Event Ideas</h2>
+
+
+</section>
+
+
+<!-- image carousel section -->
+<section class="image-carousel"></section>
+
+
+<!-- Make a difference section -->
+<section class="make-difference">
+    <div id="get-involved">
+        <h2> <img src="{{MEDIA_URL}}/images/donation-icon.png" alt="hand holding a heart icon">Get Invovled. Make a
+            Difference.</h2>
+    </div>
+    <div id="donate"><a href="{% url 'donate' %}" class="donate-btn"><i class="fa-solid fa-parachute-box"></i>
+            DONATE</a>
+    </div>
+
+
+</section>
 <div class="col-12">
     <div class="row">
         <form action="" method="POST" id="event-form" class="form mt-10" encrypte="multipart/form-data">
             {% csrf_token %}
             <h2>Add products - form</h2>
             {% for field in form %}
-                <p class="mb-0 mt-2">{{ field.name }}:</p>{{ field }}
+            <p class="mb-0 mt-2">{{ field.name }}:</p>{{ field }}
             {% endfor %}
             <br>
             <div class="mt-4">
                 <button class="btn btn-success" type="submit">Filter</button>
             </div>
+
         </form>
 
         {% for event in events %}
