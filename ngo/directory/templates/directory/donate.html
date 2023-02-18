@@ -2,5 +2,22 @@
 {% load static %}
 
 {% block content %}
-
+<div class="col-12">
+    <div class="row">
+        {% for org in orgs %}
+        <div class="card ml-4">
+            <div class="card-body">
+                <h3 class="card-title text-black">{{ org.name }}</h3>
+                <p class="card-text text-muted">{{ org.org }}</p>
+                <p class="card-text text-muted">{{ org.location }}</p>
+                <p class="card-text text-muted">Date and time: {{ org.date }} {{ org.time }}</p>
+                <p class="card-text">{{ org.summary }}</p>
+                <a href="{{ org.website }}" class="text-black">Website</a>
+                <a href="{{ org.instagram }}">Instagram</a>
+                <a href="{{ org.facebook }}">Facebook</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 {% endblock %}
