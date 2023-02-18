@@ -11,15 +11,6 @@
         <h3>Raise funds for NGOs</h3>
     </div>
 </section>
-
-<!-- three pillars section -->
-<section id="three-pillars-section">
-    <h2> <img src="{{MEDIA_URL}}/images/events-icon.png" alt="events icon">
-        Event Ideas</h2>
-
-
-</section>
-
 <!-- Make a difference section -->
 <section class="make-difference">
     <div id="get-involved">
@@ -29,6 +20,17 @@
     <div id="donate"><a href="{% url 'donate' %}" class="donate-btn"><i class="fa-solid fa-parachute-box"></i>
             DONATE</a>
     </div>
+</section>
+<!-- three pillars section -->
+<section class="event-container">
+    <h2> <img src="{{MEDIA_URL}}/images/events-icon.png" alt="events icon">
+        Event Ideas</h2>
+
+
+</section>
+
+
+
     {% comment %} <div>
         <ul>
             {% for location in locations %}
@@ -39,6 +41,7 @@
         </ul>
         
     </div> {% endcomment %}
+<section>
     <div class="col-12">
         <div class="row">
             {% for location in locations %}

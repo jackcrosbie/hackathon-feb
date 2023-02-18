@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada&family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Helvetica St', sans-serif;
+    font-family: 'Roboto', 'Helvetica St', sans-serif;
     font-weight: 300;
     color: #585b5d;
     position: relative;
@@ -19,7 +22,7 @@ a {
 
 h1,
 h2 {
-    font-family: 'Helvetica Lt Std Condensed', 'Helvetica Std Bold Condensed', sans-serif;
+    font-family: 'Labrada', 'Helvetica Std Bold Condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: rgb(255, 126, 32);
@@ -156,7 +159,7 @@ h2 {
 #three-pillars-section {
     height: 650px;
     width: 100%;
-    margin: 50px 0;
+    padding: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -207,6 +210,14 @@ h2 {
     padding-right: 30px;
 }
 
+/* --- Event Page ------------------------ */
+
+.event-container {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: auto;
+}
 
 /* --- Image carousel ------------------------ */
 .image-carousel {
