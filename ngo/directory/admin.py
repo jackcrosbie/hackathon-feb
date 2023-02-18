@@ -1,5 +1,15 @@
 from django.contrib import admin
-from .models import OrgDirectory, Event
+from .models import OrgDirectory, Event, Location
+
+
+class LocationAdmin(admin.ModelAdmin):
+    list_display = (
+        'name',
+    )
+
+    ordering = (
+        'name',
+    )
 
 
 class OrgDirectoryAdmin(admin.ModelAdmin):
@@ -34,5 +44,6 @@ class EventAdmin(admin.ModelAdmin):
     )
 
 
+admin.site.register(Location, LocationAdmin)
 admin.site.register(OrgDirectory, OrgDirectoryAdmin)
 admin.site.register(Event, EventAdmin)
