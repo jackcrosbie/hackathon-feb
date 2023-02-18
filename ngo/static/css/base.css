@@ -43,7 +43,7 @@ h2 {
     float: right;
     list-style: none;
     margin-top: 85px;
-    background-color: rgba(255, 126, 32, 0.6);
+    background-color: rgba(255, 126, 32, 0.85);
     padding: 20px;
     text-transform: uppercase;
 }
@@ -56,6 +56,8 @@ h2 {
 #menu a:hover {
     border-bottom: 1px solid #585b5d;
 }
+
+
 
 /* ---Hero image---------------------------------*/
 
@@ -82,7 +84,7 @@ h2 {
     position: absolute;
     bottom: 150px;
     left: 150px;
-    background-color: rgba(255, 126, 32, 0.6);
+    background-color: rgba(255, 126, 32, 0.85);
     text-align: center;
 }
 
@@ -100,6 +102,22 @@ h2 {
     position: absolute;
     bottom: 0px;
     right: 0px;
+}
+
+.hero-donate-btn{
+    background-color: #ff7e20;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 15px 60px;
+
+}
+
+.hero-donate a:hover{
+    background-color: white;
+    color: #ff7e20;
+    border: 2px solid #ff7e20;
 }
 
 /*----Three Pillars section ------------------*/
@@ -250,3 +268,4 @@ h2 {
     color: #ff7e20;
     border: 2px solid #ff7e20;
 }
+
