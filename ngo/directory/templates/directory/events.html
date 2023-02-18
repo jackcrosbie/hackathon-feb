@@ -20,11 +20,6 @@
 
 </section>
 
-
-<!-- image carousel section -->
-<section class="image-carousel"></section>
-
-
 <!-- Make a difference section -->
 <section class="make-difference">
     <div id="get-involved">
@@ -34,7 +29,7 @@
     <div id="donate"><a href="{% url 'donate' %}" class="donate-btn"><i class="fa-solid fa-parachute-box"></i>
             DONATE</a>
     </div>
-    <div>
+    {% comment %} <div>
         <ul>
             {% for location in locations %}
             <li>
@@ -43,11 +38,11 @@
             {% endfor %}
         </ul>
         
-    </div>
+    </div> {% endcomment %}
     <div class="col-12">
         <div class="row">
             {% for location in locations %}
-            <h2 id="{{ location.name }}-id">{{ location.name }}</h2>
+           {% comment %}  <h2 id="{{ location.name }}-id">{{ location.name }}</h2> {% endcomment %}
             {% for event in events %}
             {% if location == event.location %}
             <div class="card ml-4">

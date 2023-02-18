@@ -2,6 +2,24 @@
 {% load static %}
 
 {% block content %}
+<!-- Hero image section -->
+<section id="hero-outer">
+    <div id="hero-image"></div>
+    <div id="world-ngo-logo"></div>
+    <div id="events-cover-text">
+        <h2>Participate in an Event </h2>
+        <h3>Raise funds for NGOs</h3>
+    </div>
+</section>
+<section class="make-difference">
+    <div id="get-involved">
+      <h2> <img src="{{MEDIA_URL}}/images/donation-icon.png" alt="hand holding a heart icon">Get Invovled. Make a
+        Difference.</h2>
+    </div>
+    <div id="donate"><a href="{% url 'donate' %}" class="donate-btn"><i class="fa-solid fa-parachute-box"></i>  DONATE</a>
+    </div>
+</section>
+
 <div class="col-12">
     <div class="row">
         {% for org in orgs %}
