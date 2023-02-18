@@ -104,7 +104,14 @@ h2 {
     right: 0px;
 }
 
-.hero-donate-btn{
+#hero-donate {
+    /* position: absolute;
+    bottom: 50px;
+    left: 500px; */
+    position: relative;
+}
+
+.donate-btn{
     background-color: #ff7e20;
     color: white;
     text-decoration: none;
@@ -114,7 +121,7 @@ h2 {
 
 }
 
-.hero-donate a:hover{
+#hero-donate a:hover{
     background-color: white;
     color: #ff7e20;
     border: 2px solid #ff7e20;
@@ -253,7 +260,7 @@ h2 {
 
 }
 
-.donate-btn{
+/* #donate-btn{
     background-color: #ff7e20;
     color: white;
     text-decoration: none;
@@ -261,11 +268,10 @@ h2 {
     border-radius: 5px;
     padding: 15px 60px;
 
-}
+} */
 
-.donate a:hover{
+#donate a:hover{
     background-color: white;
     color: #ff7e20;
     border: 2px solid #ff7e20;
 }
-

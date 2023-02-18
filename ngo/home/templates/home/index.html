@@ -5,13 +5,14 @@
 <!-- Hero image section -->
 <section id="hero-outer">
   <div id="hero-image"></div>
+  <div id="world-ngo-logo"></div>
   <div id="cover-text">
     <h2>World NGO day </h2>
     <h3>27th Feb 2023</h3>
   </div>
-  <div class="hero-donate"><a href="{% url 'donate' %}" class="hero-donate-btn">DONATE</a></div>
-  <div id="world-ngo-logo"></div>
+  <div id="hero-donate"><a href="{% url 'donate' %}" class="donate-btn">DONATE</a></div>
 </section>
+
 
 <!-- three pillars section -->
 <section id="three-pillars-section">
@@ -98,10 +99,11 @@
 
 <!-- make a difference section -->
 <section class="make-difference">
-  <div class="donate">
+  <div id="get-involved">
     <h2> <img src="{{MEDIA_URL}}/images/donation-icon.png" alt="hand holding a heart icon">Get Invovled. Make a
       Difference.</h2>
-      <a href="{% url 'donate' %}" class="donate-btn"><i class="fa-solid fa-parachute-box"></i>  DONATE</a>
+  </div>
+  <div id="donate"><a href="{% url 'donate' %}" class="donate-btn"><i class="fa-solid fa-parachute-box"></i>  DONATE</a>
   </div>
 
 </section>
