@@ -104,6 +104,12 @@ h2 {
     right: 0px;
 }
 
+.hero-donate {
+    position: absolute;
+    bottom: 50px;
+    left: 500px;
+}
+
 .hero-donate-btn{
     background-color: #ff7e20;
     color: white;
@@ -269,3 +275,6 @@ h2 {
     border: 2px solid #ff7e20;
 }
 
+.donate {
+
+}
