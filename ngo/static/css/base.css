@@ -105,9 +105,10 @@ h2 {
 }
 
 #hero-donate {
-    position: absolute;
+    /* position: absolute;
     bottom: 50px;
-    left: 500px;
+    left: 500px; */
+    position: relative;
 }
 
 .donate-btn{
