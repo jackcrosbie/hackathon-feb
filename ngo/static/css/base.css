@@ -32,7 +32,9 @@ h2 {
 #menu {
     font-size: 150%;
     letter-spacing: 4px;
-    margin-right: 30px;
+    margin-right: 30p;
+    position: sticky;
+    z-index: 100;
 }
 
 #menu li {
