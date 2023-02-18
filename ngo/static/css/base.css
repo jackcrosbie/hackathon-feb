@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Labrada&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +8,7 @@
 }
 
 body {
-    font-family: 'Roboto', 'Helvetica St', sans-serif;
+    font-family: 'Oswald', 'Helvetica St', sans-serif;
     font-weight: 300;
     color: #585b5d;
     position: relative;
@@ -157,12 +158,10 @@ h2 {
 
 /*----Three Pillars section ------------------*/
 #three-pillars-section {
-    height: 650px;
     width: 100%;
-    padding: 10%;
+    padding: 5%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -174,11 +173,19 @@ h2 {
     text-align: center;
 }
 
+#three-pillars-section h3 {
+    font-family: 'Labrada', 'Helvetica Std Bold Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
 .three-pillars-content-container {
     display: flex;
     flex-direction: row;
-    width: 90%;
     height: auto;
+    padding-top: 50px;
+    border: 1px solid black;
 }
 
 .three-pillars-headings {
@@ -203,11 +210,6 @@ h2 {
     font-weight: 400;
     width: 80%;
     padding-bottom: 20px;
-}
-
-.commemorate {
-    padding-left: 50px;
-    padding-right: 30px;
 }
 
 /* --- Event Page ------------------------ */
