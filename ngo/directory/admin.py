@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import OrgDirectory, Events
 
+
 class OrgDirectoryAdmin(admin.ModelAdmin):
     list_display = (
         'name',
@@ -33,5 +34,5 @@ class EventsAdmin(admin.ModelAdmin):
     )
 
 
-admin.site.register(Events, EventsAdmin)
 admin.site.register(OrgDirectory, OrgDirectoryAdmin)
+admin.site.register(Events, EventsAdmin)
