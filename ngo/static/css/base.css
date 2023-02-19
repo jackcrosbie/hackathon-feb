@@ -150,8 +150,9 @@ h2 {
 
 #world-ngo-logo {
     background: url('../../media/images/world-ngo-corner-logo2.png') no-repeat bottom right;
-    height: 100%;
-    width: 100%;
+    background-size: contain;
+    height: 50%;
+    width: 50%;
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -368,7 +369,7 @@ hr {
     color: white;
 }
 
-.social-footer span{
+.social-footer span {
     font-weight: 600;
     color: white;
 }
@@ -508,6 +509,13 @@ hr {
 }
 
 /* --- Media queries ------------------------ */
+@media screen and (max-width: 1500px) {
+    #world-ngo-logo {
+        height: 40%;
+        width: 40%;
+    }
+}
+
 
 /* --- for large to medium screen 1200px and below ------------------------ */
 @media screen and (max-width: 1200px) {
@@ -517,18 +525,23 @@ hr {
         max-width: 150px;
         max-height: 150px;
     }
-    
-    #menu li{
+
+    #menu li {
         padding: 10px 15px 10px 15px;
     }
-    
-    #menu a{
+
+    #menu a {
         font-size: 19px;
     }
-    
+
+    #world-ngo-logo {
+        height: 30%;
+        width: 30%;
+    }
+
     /* --- Home Page ------------------------ */
     /* three pilars section */
-    #three-pillars-section{
+    #three-pillars-section {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -557,7 +570,7 @@ hr {
 
     /* Get involved section */
 
-    #make-difference{
+    #make-difference {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -569,11 +582,11 @@ hr {
         margin-bottom: 0;
     }
 
-    #get-involved h2{
+    #get-involved h2 {
         font-size: 45px;
     }
 
-    #involved-msg img{
+    #involved-msg img {
         display: block;
         max-width: 65px;
         height: auto;
@@ -585,4 +598,3 @@ hr {
 
     /* --- Events Page ------------------------ */
 }
-
