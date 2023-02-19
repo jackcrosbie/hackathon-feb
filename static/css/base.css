@@ -326,14 +326,14 @@ hr {
     max-width: 100%;
     flex-direction: column;
     align-items: center;
-    padding: 7%;
-    height: 400px;
+    height: 300px;
 }
+
 
 .btn-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 150px;
+    margin-bottom: 75px;
 }
 
 #donate a:hover {
@@ -383,6 +383,7 @@ hr {
 
 
 /* --- Donate Page ------------------------ */
+
 .donate-make-difference {
     height: 700px;
     display: flex;
@@ -409,7 +410,6 @@ hr {
 }
 
 #get-involved-donate ul {
-    font-size: 90%;
     margin-top: 2rem;
 }
 
@@ -424,19 +424,19 @@ hr {
 #get-involved-donate img {
     display: block;
     text-align: center;
+    max-width: 200px;
     margin: 5px auto;
     width: auto;
 }
 
 
 #get-involved-donate h2 {
-    font-size: 300%;
-    font-weight: 600;
+
     text-align: center;
 }
 
 #get-involved-donate li {
-    font-size: 2em;
+
     list-style: none;
 }
 
@@ -549,12 +549,15 @@ hr {
     #welcome {
         padding: 30px 0;
         margin: 30px;
+        font-size: 250%;
     }
+
+
 
     #welcome img {
         display: block;
         text-align: center;
-        max-width: 65px;
+        max-width: 95px;
         height: auto;
         padding-bottom: 20px;
     }
@@ -573,9 +576,9 @@ hr {
 
     /* Get involved section */
 
-    #make-difference {
-        width: 65%;
-        height: 1200px;
+    .make-difference {
+        width: 95%;
+        height: 450px;
         margin: 0 auto;
     }
 
@@ -587,6 +590,10 @@ hr {
 
     #get-involved h2 {
         font-size: 45px;
+    }
+
+    #involved-msg {
+        margin-top: -100px;
     }
 
     #involved-msg img {
@@ -627,10 +634,12 @@ hr {
         display: none;
     }
 
-    /* --- Donate Page ------------------------ */
-    #get-involved-donate h2 {
-        font-size: 200%
+    #involved-msg {
+        font-size: 80%;
     }
+
+    /* --- Donate Page ------------------------ */
+    #get-involved-donate h2 {}
 
     /* --- Events Page ------------------------ */
     .event-container h2 {
@@ -662,6 +671,10 @@ hr {
         transform: translateX(-50%)
     }
 
+    #get-involved h2 {
+        font-size: 35px;
+    }
+
     #events-cover-text {
         font: 150%;
         width: 300px;
@@ -687,9 +700,7 @@ hr {
     }
 
     /* --- Donate Page ------------------------ */
-    #get-involved-donate h2 {
-        font-size: 150%
-    }
+    #get-involved-donate h2 {}
 
     /* --- Events Page ------------------------ */
     .event-container h2 {
@@ -709,9 +720,7 @@ hr {
 }
 
 /* --- Donate Page ------------------------ */
-#get-involved-donate h2 {
-    font-size: 100%
-}
+#get-involved-donate h2 {}
 
 /* --- for smaller screens 575px and below ------------------------ */
 @media screen and (max-width: 575px) {
