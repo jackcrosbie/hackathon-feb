@@ -67,6 +67,11 @@ h2 {
     border-bottom: 1px solid #585b5d;
 }
 
+.active {
+    text-decoration: underline;
+    color: #fff;
+}
+
 
 /* ---Hero image (All Pages)-------------------------*/
 
@@ -83,6 +88,11 @@ h2 {
 
 #events-cover-text,
 #events-cover-text h2 {
+    color: #fff;
+}
+
+#donate-cover-text,
+#donate-cover-text h2 {
     color: #fff;
 }
 
@@ -108,6 +118,21 @@ h2 {
     text-transform: none;
     width: 400px;
     height: 160px;
+    padding: 20px;
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+    background-color: rgba(255, 126, 32, 0.85);
+    text-align: center;
+}
+
+#donate-cover-text {
+    font-size: 200%;
+    font-family: 'Helvetica Lt Std Condensed', 'Helvetica Std Bold Condensed', sans-serif;
+    letter-spacing: 4px;
+    text-transform: none;
+    width: 400px;
+    height: 220px;
     padding: 20px;
     position: absolute;
     bottom: 150px;
@@ -157,39 +182,39 @@ h2 {
 }
 
 /*---- Home Page Three Pillars section ------------------*/
-#three-pillars-section{
+#three-pillars-section {
     height: 650px;
 }
 
-#welcome{
+#welcome {
     text-align: center;
 }
 
-#welcome{
+#welcome {
     font-weight: 600;
     font-size: 300%;
 }
 
-#welcome > img{
+#welcome img {
     display: block;
     text-align: center;
     margin: 5px auto;
     width: auto;
 }
 
-#left-pillar{
+#left-pillar {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#right-pillar{
+#right-pillar {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
-#center-pillar{
+#center-pillar {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
@@ -204,7 +229,9 @@ h2 {
     padding-top: 20px;
 }
 
-#left-pillar h2, #right-pillar h2, #center-pillar h2{
+#left-pillar h2,
+#right-pillar h2,
+#center-pillar h2 {
     text-align: center;
     font-weight: 600;
     text-transform: none;
@@ -302,18 +329,6 @@ hr {
     height: 400px;
 }
 
-#get-involved-donate {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    padding: 10%;
-}
-
-#get-involved-donate li {
-    font-size: 2em;
-}
-
 .btn-container {
     display: flex;
     justify-content: center;
@@ -341,6 +356,7 @@ hr {
     bottom: 0;
     width: 100%;
     height: 2.5rem;
+    margin-top: 2rem;
 }
 
 .social-footer {
@@ -376,16 +392,13 @@ hr {
 
 /* --- Donate Page ------------------------ */
 .donate-make-difference {
-    height: 900px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 2rem;
-}
-
-#get-involved-donate {
-    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 #get-involved-donate ul {
@@ -393,7 +406,56 @@ hr {
     margin-top: 2rem;
 }
 
+#get-involved-donate {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
 
+}
+
+#get-involved-donate h2 {
+    font-size: 350%;
+    font-weight: 700;
+    text-align: center;
+}
+
+#get-involved-donate li {
+    font-size: 2em;
+    list-style: none;
+}
+
+.fa-heart {
+    color: #ff7e20;
+    padding-right: 1rem;
+}
+
+.card-text {
+    font-size: 150%;
+    padding: 1rem 0 1rem 0;
+
+}
+
+.card h3 {
+    text-decoration: none;
+}
+
+.text-black {
+    color: #ff7e20;
+    font-size: 150%;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.donate-container {
+    text-align: center;
+    height: 100%;
+    width: 90%;
+    margin-bottom: 3rem;
+    margin: 0 auto;
+
+}
 
 
 /* --- Event Page ------------------------ */
@@ -412,17 +474,42 @@ hr {
 
 .events-container {
     text-align: center;
+    height: 100%;
+    width: 90%;
+    margin-bottom: 3rem;
+    margin: 0 auto;
+}
 
+.row h2 {
+    color: #585b5d;
+    font-size: 300%;
+    padding: 1rem;
+}
+
+.row h3 {
+    font-size: 200%;
+    padding: 2rem;
+}
+
+.event-container h2 {
+    font-size: 350%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 1rem;
 }
 
 /* --- Media queries ------------------------ */
 
 /* --- for large to medium screen 1200px and below ------------------------ */
 @media screen and (max-width: 1200px) {
+
     /* --- Header for All pages ------------------------ */
-    #logo img{
+    #logo img {
         max-width: 150px;
-         max-height: 150px;
+        max-height: 150px;
     }
     
     #menu li{
@@ -446,7 +533,7 @@ hr {
         margin: 30px;
     }
 
-    #welcome img{
+    #welcome img {
         display: block;
         text-align: center;
         max-width: 65px;
@@ -454,7 +541,9 @@ hr {
         padding-bottom: 20px;
     }
 
-    #left-pillar, #center-pillar, #right-pillar{
+    #left-pillar,
+    #center-pillar,
+    #right-pillar {
         width: 100%;
         padding: 0;
         margin-bottom: 60px;
@@ -490,4 +579,4 @@ hr {
 
     /* --- Events Page ------------------------ */
 }
-    
+

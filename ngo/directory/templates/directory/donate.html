@@ -6,28 +6,27 @@
 <section id="hero-outer">
     <div id="hero-image"></div>
     <div id="world-ngo-logo"></div>
-    <div id="events-cover-text">
-        <h2>Participate in an Event </h2>
-        <h3>Raise funds for NGOs</h3>
+    <div id="donate-cover-text">
+        <h2>Donate to an NGO </h2>
+        <h3>Choose an NGO below and make a difference</h3>
     </div>
 </section>
 <section class="donate-make-difference">
     <div id="get-involved-donate">
-        <h2> <img src="{{MEDIA_URL}}/images/donation-icon.png" alt="hand holding a heart icon">Get Invovled. Make a
-            Difference.</h2>
+        <h2> <img src="{{MEDIA_URL}}/images/donation-icon.png" alt="hand holding a heart icon">Make A Difference.</h2>
         <ul>
-            <li>
+            <li><i class="fa-solid fa-heart"> </i>
                 There are an estimated 10 million NGOs worldwide,
                 they need your help
             </li>
-            <li>
+            <li><i class="fa-solid fa-heart"> </i>
                 Nearly 100 million people work for NGOs across the globe
             </li>
-            <li>
+            <li><i class="fa-solid fa-heart"> </i>
                 31% of people have donated to charity in 2015
             </li>
-            <li>
-                and 24% volunteered their time
+            <li><i class="fa-solid fa-heart"> </i>
+                24% volunteered their time
             </li>
         </ul>
     </div>
@@ -35,7 +34,7 @@
         <a href="{% url 'donate' %}" class="donate-btn"><i class="fa-solid fa-parachute-box"></i> DONATE</a>
     </div>
 </section>
-<div class="events-container">
+<div class="donate-container">
     <div class="col-12">
         <div class="row">
             {% for org in orgs %}
@@ -45,7 +44,7 @@
                     <p class="card-text text-muted m-0 small">Location: {{ org.location }}</p>
                     <p class="card-text text-muted m-0 small">Area of work: {{ org.work }}</p>
                     <p class="card-text">{{ org.summary }}</p>
-                    <a href="{{ org.website }}" class="text-black" target="_blank">Website</a>
+                    <a href="{{ org.website }}" class="text-black" target="_blank">Donate Directly</a>
                     {% if org.instagram %}
                     <a href="{{ org.instagram }}">Instagram</a>
                     {% endif %}
