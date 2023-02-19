@@ -69,18 +69,24 @@ At the end we made the socials page and donate page into a single page. We also 
 
 That means that the website has these pages:
 ### Home page
+The home page has information about World NGO Day and how people can support NGOs. It also links to the donate page and a carucel with images linked to different NGOs.
 
 ### Donate page
+Most of this page is taken up by a list of different NGOs. Each item in the list has information about the organisation and an image with their logo. At the bottom there is links to their website, and social media if they have one. Above the list there is also some general information on how people contribute to NGOs. 
+
+The information about each NGO is stored in a database, which makes it easy to edit, delete or add organisations.
 
 ### Event page
+This page has some events people can attend. There is a smaller navigation bar right above the list of events. This contains all the locations (what country the event is in). The list below contains basic information about the event, and a link to the events official page. 
+
+The information about each NGO is stored in a database, which makes it easy to edit, delete or add events. This is especially useful, since the events need to be deleted from the website after taking place.
 
 Other features:
 ### Navigation
-
+The navigation consists of a navigation bar on the right and the sites logo on the left. The logo liks to the home page, and the three different items in the navbar links to the pages shown above (home, donate, events). The text is white on an orange background.
 
 ### Footer
-​
-<< detail idea / features / functionality here >>
+​The footer has links to social media and copywrite information. Here too, the text is white on an orange background.
 ​
 ## Design
 ​
