@@ -157,11 +157,12 @@ h2 {
     right: 0px;
 }
 
+/*---- Home Page Hero Donate Button ------------------*/
 #hero-donate {
-    /* position: absolute;
+    position: absolute;
     bottom: 50px;
-    left: 500px; */
-    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
 .donate-btn {
@@ -317,15 +318,14 @@ hr {
     font-weight: 700;
     margin-bottom: 75px;
     text-align: center;
-
 }
 
 #get-involved {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     flex-direction: column;
     align-items: center;
-    padding: 10%;
+    padding: 7%;
     height: 400px;
 }
 
@@ -370,21 +370,18 @@ hr {
 }
 
 .social-footer i {
-    font-size: 100%;
+    font-size: 150%;
     padding-bottom: 1%;
     padding-top: 1%;
-    padding-left: 5%;
+    padding-left: 10%;
     color: white;
 }
 
-.social-footer>p {
-    display: inline-block;
+.social-footer span{
+    font-weight: 600;
+    color: white;
 }
 
-.social-footer>span {
-    position: relative;
-    right: 0;
-}
 
 .wrapper {
     display: grid;
@@ -509,23 +506,23 @@ hr {
 /* --- for large to medium screen 1200px and below ------------------------ */
 @media screen and (max-width: 1200px) {
 
-
-
+    /* --- Header for All pages ------------------------ */
     #logo img {
         max-width: 150px;
         max-height: 150px;
     }
-
-    #menu li {
+    
+    #menu li{
         padding: 10px 15px 10px 15px;
     }
-
-    #menu a {
+    
+    #menu a{
         font-size: 19px;
     }
-
-    #three-pillars-section {
-
+    
+    /* --- Home Page ------------------------ */
+    /* three pilars section */
+    #three-pillars-section{
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -541,6 +538,7 @@ hr {
         text-align: center;
         max-width: 65px;
         height: auto;
+        padding-bottom: 20px;
     }
 
     #left-pillar,
@@ -548,6 +546,37 @@ hr {
     #right-pillar {
         width: 100%;
         padding: 0;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
+
+    /* Get involved section */
+
+    #make-difference{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #get-involved {
+        padding: 69px 0;
+        margin: 55px;
+        margin-bottom: 0;
+    }
+
+    #get-involved h2{
+        font-size: 45px;
+    }
+
+    #involved-msg img{
+        display: block;
+        max-width: 65px;
+        height: auto;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    /* --- Donate Page ------------------------ */
+
+    /* --- Events Page ------------------------ */
 }
+
