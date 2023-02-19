@@ -2,17 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Labrada&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-* {
+html { 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh !important;
 }
 
 body {
     font-family: 'Helvetica St', sans-serif;
     font-weight: 300;
     color: #585b5d;
-    position: relative;
     min-height: 100vh;
+    margin: 0;
+    padding: 0%;
 }
 
 a {
@@ -343,7 +346,6 @@ hr {
 
 /* --- Footer All Pages ------------------------ */
 .footer {
-    position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
@@ -353,6 +355,7 @@ hr {
 .social-footer {
     text-align: center;
     background-color: #ff7e20;
+    position: relative;
 
 }
 
