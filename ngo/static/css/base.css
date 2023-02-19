@@ -188,12 +188,11 @@ h2 {
 }
 
 #welcome {
-    text-align: center;
-}
-
-#welcome {
     font-weight: 600;
     font-size: 300%;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #welcome img {
@@ -249,11 +248,12 @@ hr {
 .image-carousel {
     background-color: #ff7e20;
     height: 600px;
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 1rem;
 }
 
 .slider {
@@ -302,6 +302,7 @@ hr {
 /* --- Home Page Make a Difference section ------------------------ */
 .make-difference {
     height: 600px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -542,7 +543,7 @@ hr {
     /* --- Home Page ------------------------ */
     /* three pilars section */
     #three-pillars-section {
-        width: 65%;
+        width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
@@ -568,6 +569,11 @@ hr {
         margin-bottom: 60px;
     }
 
+    #right-pillar {
+        margin-bottom: 20px;
+    }
+
+
     /* Get involved section */
 
     #make-difference {
@@ -588,7 +594,7 @@ hr {
 
     #involved-msg img {
         display: block;
-        max-width: 65px;
+        max-width: 100px;
         height: auto;
         margin: 0 auto;
         padding-bottom: 20px;
@@ -597,4 +603,78 @@ hr {
     /* --- Donate Page ------------------------ */
 
     /* --- Events Page ------------------------ */
+}
+
+@media screen and (max-width: 1000px) {
+
+    .image-for-mobile {
+        background: url('../../media/images/charity-pic-1.png') no-repeat;
+        background-size: contain;
+        height: 90%;
+        width: 90%;
+        align-items: center;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 925px) {
+
+    #three-pillars-section {
+        height: 1250px;
+    }
+
+    #left-pillar p,
+    #center-pillar p,
+    #right-pillar p {
+        font-size: 145%;
+    }
+
+}
+
+@media screen and (max-width: 790px) {
+
+    .image-carousel {
+        height: 500px;
+    }
+
+
+    #left-pillar p,
+    #center-pillar p,
+    #right-pillar p {
+        font-size: 125%;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    #three-pillars-section {
+        height: 1300px;
+    }
+
+    .image-carousel {
+        display: none
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    #three-pillars-section {
+        height: 1350px;
+    }
+
+    .image-carousel {
+        display: none
+    }
+
 }
