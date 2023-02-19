@@ -24,7 +24,7 @@ This project was made during the "Hackathon-Feb-2023: *World NGO Day February 27
   * [Acknowledgements](#acknowledgements)
 ​
 ## User Experience
-<< what paradigms of user experience did you consider, and cater to? >>
+We wanted to cater to users wondering how they can help and/or donate to NGOs.
 ​
 ### User stories
 We wanted the user to:
@@ -69,48 +69,54 @@ At the end we made the socials page and donate page into a single page. We also 
 
 That means that the website has these pages:
 ### Home page
+The home page has information about World NGO Day and how people can support NGOs. It also links to the donate page and a carucel with images linked to different NGOs.
 
 ### Donate page
+Most of this page is taken up by a list of different NGOs. Each item in the list has information about the organisation and an image with their logo. At the bottom there is links to their website, and social media if they have one. Above the list there is also some general information on how people contribute to NGOs. 
+
+The information about each NGO is stored in a database, which makes it easy to edit, delete or add organisations.
 
 ### Event page
+This page has some events people can attend. There is a smaller navigation bar right above the list of events. This contains all the locations (what country the event is in). The list below contains basic information about the event, and a link to the events official page. 
+
+The information about each NGO is stored in a database, which makes it easy to edit, delete or add events. This is especially useful, since the events need to be deleted from the website after taking place.
 
 Other features:
 ### Navigation
-
+The navigation consists of a navigation bar on the right and the sites logo on the left. The logo liks to the home page, and the three different items in the navbar links to the pages shown above (home, donate, events). The text is white on an orange background.
 
 ### Footer
-​
-<< detail idea / features / functionality here >>
+​The footer has links to social media and copywrite information. Here too, the text is white on an orange background.
 ​
 ## Design
 ​
-### Color Scheme:
+### Color Scheme
 << detail your color palette here >>
 We chose an orange and white colour palette. These colours are often used in similar pages, and work well with our layout ideas.
 ​
-### Typography:
+### Typography
 << what font pairings did your team consider and pick? And why? >>
 We chose Helvetica due to it being the one used on the WorldNGO website. To make the two websites feel connected, we too chose to use it. It is also san serif, which is easier to read on screans than serif fonts. 
 ​
-### Imagery:
+### Imagery
 << Detail imagery used to compliment your build & theme >>
 We have a hero image, and logos for the different organisations. The logos are used in the list of featured organisations. It helps people to recognize the different NGOs.
 ​
 << ensure source attribution is maintained, and that you have used copyright-free material >>
 ​
-### Wireframes:
+### Wireframes and mockups
 ​
-* Mobile Wireframes:
-​
-<< put all your mobile wireframes here... >>
-​
-<< consider adding some notes to detail the planned components or functionality >>
-​
-* Desktop Wireframes:
-​
-<< put all your desktop wireframes here... >>
-​
-<< consider adding some notes to detail the planned components or functionality >>
+#### Wireframes
+![home](media/documents/wf-home.png)
+![events](media/documents/wf-events.png)
+![donate](media/documents/wf-donate.png)
+
+#### Mockups
+![donate](media/documents/mockup-donations-page.jpg)
+![home 1](media/documents/mockup-home-1.png)
+![home 2](media/documents/mockup-home-2.png)
+![home 3](media/documents/mockup-home-3.png)
+![home 4](media/documents/mockup-home-4.png)
 ​
 ​
 ## Deployment
@@ -153,13 +159,12 @@ This website was tested on the following browsers:
 
 ### Validator testing
 
-#### HTML 
+* HTML - I put the HTML documents thru the w3c validator. It did not return any errors not related to the use of django.
+* CSS - 
+* Python - I put the code thru the Code Institute [pep8 linter](https://pep8ci.herokuapp.com/). Got no errors exept "line to long".
+* JavaScript - I ran the JavaScript thru the [JS validator](https://jsvalidator.com/) and got no errors.
 
-
-#### CSS - Jigsaw
-
-
-#### Python - pep8
+![JS validator result](media/documents/js-validator.JPG)
 
 ### Lighthouse
 
@@ -173,6 +178,7 @@ This website was tested on the following browsers:
 * At first the logo images for the organisations did not show up. This was due to us having accidentally added an extra slash. To figure this out we inspected the page in the browser.
 
 #### Unfixed bugs​
+* The body does not fill the whole page. There is a small part on the top of the page and one at the bottom where the body tag does not reach.
 
 ## Credits
 ​
