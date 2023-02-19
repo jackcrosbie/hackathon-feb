@@ -368,9 +368,12 @@ hr {
     color: white;
 }
 
-.social-footer span{
+.social-footer #copyright{
     font-weight: 600;
     color: white;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 
