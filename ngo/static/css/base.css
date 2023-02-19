@@ -175,7 +175,7 @@ h2 {
 
 }
 
-#hero-donate a:hover {
+#hero-donate a:hover, {
     background-color: white;
     color: #ff7e20;
     border: 2px solid #ff7e20;
@@ -340,6 +340,7 @@ hr {
     color: #ff7e20;
     border: 2px solid #ff7e20;
 }
+
 
 /* --- Footer All Pages ------------------------ */
 .footer {
