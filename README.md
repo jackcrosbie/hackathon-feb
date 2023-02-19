@@ -191,5 +191,5 @@ The organisation and event summaries are taken from the organisations websites. 
 ### Acknowledgements
 * [Erik Vodopivec Forsman](https://www.linkedin.com/in/erik-vodopivec-forsman-485b61217)
 * [James Kasetarapanya](https://www.linkedin.com/in/james-kasetarapanya-86602585/)
-* [Russ S](https://www.linkedin.com)
+* [Russell Stanley Smith](https://www.linkedin.com/in/russellstanleysmith/)
 * [Jack Crosbie](https://www.linkedin.com)
