@@ -134,9 +134,10 @@ We wanted the admin to:
 
 ### Device testing
 This website was tested natively on these devices:
+- Desktop Computer (25" screen)
+- Acer Aspire 5 (15" screen)
 
-
-It was also tested on these devices thru Mozilla- and Google dev tools:
+It was also tested on these devices with Mozilla- and Google dev tools:
 
 
 ### Browser testing
@@ -152,7 +153,7 @@ This website was tested on the following browsers:
 #### HTML 
 
 
-##### CSS - Jigsaw
+#### CSS - Jigsaw
 
 
 #### Python - pep8
