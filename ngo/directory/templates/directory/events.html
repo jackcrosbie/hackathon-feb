@@ -19,7 +19,7 @@
 </section>
 
 
-{% comment %} <div>
+<div>
     <ul>
         {% for location in locations %}
         <li>
@@ -28,24 +28,22 @@
         {% endfor %}
     </ul>
 
-</div> {% endcomment %}
+</div>
 <section class="events-container">
     <div class="col-12">
         <div class="row">
             {% for location in locations %}
-            {% comment %} <h2 id="{{ location.name }}-id">{{ location.name }}</h2> {% endcomment %}
+            <h2 class="mt-4" id="{{ location.name }}-id">{{ location.name }}</h2>
             {% for event in events %}
             {% if location == event.location %}
-            <div class="card ml-4">
+            <div class="card">
                 <div class="card-body">
                     <h3 class="card-title text-black">{{ event.name }}</h3>
-                    <p class="card-text text-muted">{{ event.org }}</p>
-                    <p class="card-text text-muted">{{ event.location }}</p>
-                    <p class="card-text text-muted">Date and time: {{ event.date }} {{ event.time }}</p>
+                    <p class="card-text text-muted m-0 small">{{ event.org }}</p>
+                    <p class="card-text text-muted m-0 small">{{ event.location }}</p>
+                    <p class="card-text text-muted m-0 small">Date and time: {{ event.date }} {{ event.time }}</p>
                     <p class="card-text">{{ event.summary }}</p>
                     <a href="{{ event.website }}" class="text-black">Website</a>
-                    <a href="{{ event.instagram }}">Instagram</a>
-                    <a href="{{ event.facebook }}">Facebook</a>
                 </div>
             </div>
             {% endif %}
