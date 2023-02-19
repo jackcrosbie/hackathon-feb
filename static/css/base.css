@@ -486,6 +486,10 @@ hr {
     margin: 0 auto;
 }
 
+.card-image {
+    max-width: 100%;
+}
+
 /* --- Event Page ------------------------ */
 #event-donte-btn {
     margin-top: -50px;
