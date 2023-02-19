@@ -159,13 +159,12 @@ This website was tested on the following browsers:
 
 ### Validator testing
 
-#### HTML - w3c
-I put the HTML documents thru the w3c validator. It did not return any errors not related to the use of django.
+* HTML - I put the HTML documents thru the w3c validator. It did not return any errors not related to the use of django.
+* CSS - 
+* Python - I put the code thru the Code Institute [pep8 linter](https://pep8ci.herokuapp.com/). Got no errors exept "line to long".
+* JavaScript - I ran the JavaScript thru the [JS validator](https://jsvalidator.com/) and got no errors.
 
-#### CSS - Jigsaw
-
-
-#### Python - pep8
+![JS validator result](media/documents/js-validator.JPG)
 
 ### Lighthouse
 
@@ -179,6 +178,7 @@ I put the HTML documents thru the w3c validator. It did not return any errors no
 * At first the logo images for the organisations did not show up. This was due to us having accidentally added an extra slash. To figure this out we inspected the page in the browser.
 
 #### Unfixed bugs​
+* The body does not fill the whole page. There is a small part on the top of the page and one at the bottom where the body tag does not reach.
 
 ## Credits
 ​
