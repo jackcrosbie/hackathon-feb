@@ -422,6 +422,19 @@ hr {
 
 /* --- for large to medium screen 1200px and below ------------------------ */
 @media screen and (max-width: 1200px) {
+    #logo img{
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    #menu li{
+        padding: 10px 15px 10px 15px;
+    }
+
+    #menu a{
+        font-size: 19px;
+    }
+    
     #three-pillars-section{
         width: 65%;
         height: 1200px;
@@ -436,12 +449,14 @@ hr {
     #welcome img{
         display: block;
         text-align: center;
-        width: auto;
+        max-width: 65px;
+        height: auto;
     }
 
     #left-pillar, #center-pillar, #right-pillar{
         width: 100%;
         padding: 0;
+        margin-bottom: 30px;
     }
 }
     
