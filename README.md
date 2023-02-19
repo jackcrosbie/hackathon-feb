@@ -120,7 +120,24 @@ We have a hero image, and logos for the different organisations. The logos are u
 ​
 ​
 ## Deployment
-<< detail deployment methods used here, and any extraneous circumstances to run the project locally >>
+This project was deployed with Heroku, and used Whitenoice for its static files.
+
+* Create an account at Heroku, and do not forget you need to confirm your e-mail to do this.
+* Create a list of dependencies in a text file named requirements (pip3 freeze > requirements.txt).
+* Create an app by clicking the "create a new app" button found on the dashboard.
+    * Choose a unique app name.
+    * Choose your region and click "create app"
+* Click on settings (for the app).
+    * Find the Config Vars section and add potential files that you cannot upload to github. For example API credentials. KEY is the title, and VALUE is the content. For thos project you need to add the Django key and the database-url.
+    * Add buildpacks (below Config Vars). For this project, I installed Python and Node.js. Make sure they are in the correct order.
+* Go to the deploy section.
+    * Choose to deploy from GitHub.
+    * Connect your account and choose a repository to deploy from.
+    * Choose either Automatic or Manual deployment (recommended).
+* Follow the steps on this page to set up Whitenoice. This is the same instructions I used. Dont forget to run the command "python3 manage.py collectstatic".
+* Make sure your images are on an external site, like ibb. This prevents errors related to the images.
+* Make sure the live site is working.
+
 ​
 ## Testing
 
@@ -189,6 +206,8 @@ This website was tested on the following browsers:
 ### Content
 << any content, such as facts/references/text that isn't yours...must go here >>
 The organisation and event summaries are taken from the organisations websites. These can be found on the page right below the summary.
+
+The deployment part of the readme is the same as in Erik's (team-mamber) [Project 4](https://github.com/11bus11/theatre-booking).
 ​
 ### Media
 << you may have already done this above in the Imagery section, but just in case, please attribute Media acquisition here >>
