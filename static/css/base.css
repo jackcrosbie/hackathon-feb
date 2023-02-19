@@ -504,7 +504,7 @@ hr {
 
 /* --- Event Page ------------------------ */
 
-#event-welcome-container {
+.event-welcome-container {
     display: flex;
     justify-content: center;
     height: 300px;
@@ -512,12 +512,27 @@ hr {
     margin: 75px 0 0 0;
 }
 
-#events-container {
+.events-container {
     text-align: center;
     height: 100%;
     width: 90%;
     margin-bottom: 3rem;
     margin: 0 auto;
+}
+
+.event-welcome-container img {
+display: block;
+text-align: center;
+max-width: 130px;
+margin: 5px auto;
+width: auto;
+padding-bottom: 30px
+}
+
+.event-heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
 }
 
 .row h2 {
@@ -657,8 +672,23 @@ hr {
 
 
     /* --- Events Page ------------------------ */
-    .event-container h2 {
-        font-size: 300%;
+    .event-heading {
+        padding: 30px 0;
+        margin: 30px;
+        font-size: 250%;
+        font-weight: 600;
+    }
+
+    .event-welcome-container img {
+        display: block;
+        text-align: center;
+        max-width: 95px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .event-welcome-container {
+        margin: 0;
     }
 }
 
