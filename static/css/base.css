@@ -148,6 +148,21 @@ h2 {
     background-size: cover;
 }
 
+#donate-hero-image {
+    height: 100%;
+    width: 100%;
+    background: url('../../media/images/donate-hero.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#event-hero-image {
+    height: 100%;
+    width: 100%;
+    background: url('../../media/images/event-hero.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+
 #world-ngo-logo {
     background: url('../../media/images/world-ngo-corner-logo2.png') no-repeat bottom right;
     background-size: contain;
