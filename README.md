@@ -178,6 +178,7 @@ This website was tested on the following browsers:
 * At first the logo images for the organisations did not show up. This was due to us having accidentally added an extra slash. To figure this out we inspected the page in the browser.
 
 #### Unfixed bugs​
+* The body does not fill the whole page. There is a small part on the top of the page and one at the bottom where the body tag does not reach.
 
 ## Credits
 ​
