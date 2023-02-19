@@ -41,14 +41,17 @@
             {% for org in orgs %}
             <div class="card ml-4">
                 <div class="card-body">
-                    <img class="card-image" src="{{ MEDIA_URL}}/images/{{ org.image }}" alt="{{ org.name }} logo">
-                    <h3 class="card-title text-black">{{ org.name }}</h3>
-                    <p class="card-text text-muted m-0 small">{{ org.location }}</p>
-                    <p class="card-text text-muted m-0 small">{{ org.work }}</p>
+                    <img class="card-image" src="{{ MEDIA_URL}}images/{{ org.image }}" alt="{{ org.name }} logo">
+                    <p class="card-text text-muted m-0 small">Location: {{ org.location }}</p>
+                    <p class="card-text text-muted m-0 small">Area of work: {{ org.work }}</p>
                     <p class="card-text">{{ org.summary }}</p>
-                    <a href="{{ org.website }}" class="text-black">Website</a>
+                    <a href="{{ org.website }}" class="text-black" target="_blank">Website</a>
+                    {% if org.instagram %}
                     <a href="{{ org.instagram }}">Instagram</a>
+                    {% endif %}
+                    {% if org.facebook %}
                     <a href="{{ org.facebook }}">Facebook</a>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
