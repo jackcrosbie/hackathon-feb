@@ -205,7 +205,7 @@ h2 {
 .three-pillars-ul li {
     list-style-type: none;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     font-size: 60%;
     font-weight: 400;
     width: 80%;
@@ -382,4 +382,5 @@ h2 {
 
 .events-container {
     text-align: center;
+    margin-top: 12em;
 }
