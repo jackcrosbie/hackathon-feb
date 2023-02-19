@@ -193,7 +193,7 @@ h2 {
     display: block;
     text-align: center;
     margin: 5px auto;
-    width: 8%;
+    width: auto;
 }
 
 #left-pillar {
@@ -475,19 +475,45 @@ hr {
 
 /* --- for large to medium screen 1200px and below ------------------------ */
 @media screen and (max-width: 1200px) {
-    #three-pillars-section {
+
+
+
+    #logo img{
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    #menu li{
+        padding: 10px 15px 10px 15px;
+    }
+
+    #menu a{
+        font-size: 19px;
+    }
+    
+    #three-pillars-section{
+
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
-}
 
-#welcome {
-    padding: 30px 0;
-    margin: 30px;
-}
+    #welcome {
+        padding: 30px 0;
+        margin: 30px;
+    }
 
-#welcome img {
-    display: block;
-    text-align: center;
+    #welcome img{
+        display: block;
+        text-align: center;
+        max-width: 65px;
+        height: auto;
+    }
+
+    #left-pillar, #center-pillar, #right-pillar{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
 }
+    
