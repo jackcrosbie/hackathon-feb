@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Oswald', 'Helvetica St', sans-serif;
+    font-family: 'Helvetica St', sans-serif;
     font-weight: 300;
     color: #585b5d;
     position: relative;
@@ -19,11 +19,11 @@ a {
     text-decoration: none;
 }
 
-/*--- Heading and logo -------------------------*/
+/*--- Heading and logo (All pages)----------------------*/
 
 h1,
 h2 {
-    font-family: 'Labrada', 'Helvetica Std Bold Condensed', sans-serif;
+    font-family: 'Helvetica Std Bold Condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: rgb(255, 126, 32);
@@ -68,8 +68,7 @@ h2 {
 }
 
 
-
-/* ---Hero image---------------------------------*/
+/* ---Hero image (All Pages)-------------------------*/
 
 #hero-outer {
     height: 900px;
@@ -156,7 +155,7 @@ h2 {
     border: 2px solid #ff7e20;
 }
 
-/*----Three Pillars section ------------------*/
+/*---- Home Page Three Pillars section ------------------*/
 #three-pillars-section {
     width: 100%;
     padding: 5%;
@@ -174,7 +173,7 @@ h2 {
 }
 
 #three-pillars-section h3 {
-    font-family: 'Labrada', 'Helvetica Std Bold Condensed', sans-serif;
+    font-family: 'Helvetica Std Bold Condensed', sans-serif;
     text-transform: uppercase;
     font-size: 40px;
     text-decoration: underline;
@@ -206,22 +205,14 @@ h2 {
     list-style-type: none;
     margin: 0 auto;
     text-align: left;
-    font-size: 60%;
+    font-size: 50%;
     font-weight: 400;
     width: 80%;
     padding-bottom: 20px;
 }
 
-/* --- Event Page ------------------------ */
 
-.event-container {
-    display: flex;
-    justify-content: center;
-    height: 400px;
-    width: auto;
-}
-
-/* --- Image carousel ------------------------ */
+/* --- Home Page Image carousel ------------------------ */
 .image-carousel {
     background-color: #ff7e20;
     height: 600px;
@@ -275,7 +266,7 @@ h2 {
     transform: scale(1.1);
 }
 
-/* --- Make a Difference section ------------------------ */
+/* --- Home Page Make a Difference section ------------------------ */
 .make-difference {
     height: 600px;
     display: flex;
@@ -340,7 +331,7 @@ h2 {
     border: 2px solid #ff7e20;
 }
 
-/* --- Footer ------------------------ */
+/* --- Footer All Pages ------------------------ */
 .footer {
     position: absolute;
     bottom: 0;
@@ -354,7 +345,7 @@ h2 {
 
 }
 
-.social-footer > li {
+.social-footer>li {
     display: inline;
 }
 
@@ -365,11 +356,12 @@ h2 {
     padding-left: 5%;
     color: white;
 }
-.social-footer > p{
+
+.social-footer>p {
     display: inline-block;
 }
 
-.social-footer > span {
+.social-footer>span {
     position: relative;
     right: 0;
 }
@@ -378,9 +370,46 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
-  }
+}
+
+
+/* --- Donate Page ------------------------ */
+.donate-make-difference {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+#get-involved-donate {
+    margin-top: 2rem;
+}
+
+#get-involved-donate ul {
+    font-size: 90%;
+    margin-top: 2rem;
+}
+
+
+
+
+/* --- Event Page ------------------------ */
+
+#event-donte-btn {
+    margin-top: -50px;
+}
+
+.event-container {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: auto;
+    margin: 75px 0 0 0;
+}
 
 .events-container {
     text-align: center;
-    margin-top: 12em;
+
 }

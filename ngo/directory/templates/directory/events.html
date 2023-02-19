@@ -11,41 +11,29 @@
         <h3>Raise funds for NGOs</h3>
     </div>
 </section>
-<!-- Make a difference section -->
-<section class="make-difference">
-    <div id="get-involved-donate">
-        <h2> <img src="{{MEDIA_URL}}/images/donation-icon.png" alt="hand holding a heart icon">Get Invovled. Make a
-            Difference.</h2>
-    </div>
-    <div id="donate"><a href="{% url 'donate' %}" class="donate-btn"><i class="fa-solid fa-parachute-box"></i>
-            DONATE</a>
-    </div>
-</section>
+
 <!-- three pillars section -->
 <section class="event-container">
     <h2> <img src="{{MEDIA_URL}}/images/events-icon.png" alt="events icon">
-        Event Ideas</h2>
-
-
+        Events Running</h2>
 </section>
 
 
+{% comment %} <div>
+    <ul>
+        {% for location in locations %}
+        <li>
+            <a href="#{{ location.name }}-id">{{ location.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
 
-    {% comment %} <div>
-        <ul>
-            {% for location in locations %}
-            <li>
-                <a href="#{{ location.name }}-id">{{ location.name }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-        
-    </div> {% endcomment %}
+</div> {% endcomment %}
 <section class="events-container">
     <div class="col-12">
         <div class="row">
             {% for location in locations %}
-           {% comment %}  <h2 id="{{ location.name }}-id">{{ location.name }}</h2> {% endcomment %}
+            {% comment %} <h2 id="{{ location.name }}-id">{{ location.name }}</h2> {% endcomment %}
             {% for event in events %}
             {% if location == event.location %}
             <div class="card ml-4">
