@@ -159,13 +159,12 @@ This website was tested on the following browsers:
 
 ### Validator testing
 
-#### HTML - w3c
-I put the HTML documents thru the w3c validator. It did not return any errors not related to the use of django.
+* HTML - I put the HTML documents thru the w3c validator. It did not return any errors not related to the use of django.
+* CSS - 
+* Python - I put the code thru the Code Institute [pep8 linter](https://pep8ci.herokuapp.com/). Got no errors exept "line to long".
+* JavaScript - I ran the JavaScript thru the [JS validator](https://jsvalidator.com/) and got no errors.
 
-#### CSS - Jigsaw
-
-
-#### Python - pep8
+![JS validator result](media/documents/js-validator.JPG)
 
 ### Lighthouse
 
