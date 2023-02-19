@@ -1,0 +1,20 @@
+databases:
+  - name: ngo
+    databaseName: ngo
+    user: ngo
+
+services:
+  - type: web
+    name: ngo
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn ngo.wsgi:application"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: ngo
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
