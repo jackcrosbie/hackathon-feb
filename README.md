@@ -28,13 +28,13 @@ This project was made during the "Hackathon-Feb-2023: *World NGO Day February 27
 ​
 ### User stories
 We wanted the user to:
-Find NGOs they can donate to.
-Find events they can take part in.
-See what each featured organisation does.
+* Find NGOs they can donate to.
+* Find events they can take part in.
+* See what each featured organisation does.
 
 We wanted the admin to:
-Be able to add, delete or change the featured organisations.
-Be able to add, delete or change the events on the website.
+* Be able to add, delete or change the featured organisations.
+* Be able to add, delete or change the events on the website.
 ​
 ## Technology
 
@@ -85,11 +85,11 @@ Other features:
 ​
 ### Color Scheme:
 << detail your color palette here >>
-We chose an orange and white colour palette. These colours are often used in similar pages, and would work well with our layout ideas.
+We chose an orange and white colour palette. These colours are often used in similar pages, and work well with our layout ideas.
 ​
 ### Typography:
 << what font pairings did your team consider and pick? And why? >>
-We chose Helvetica due to it being the one used on the WorldNGO website. To make the two websites feel connected, we too chose to use it.
+We chose Helvetica due to it being the one used on the WorldNGO website. To make the two websites feel connected, we too chose to use it. It is also san serif, which is easier to read on screans than serif fonts. 
 ​
 ### Imagery:
 << Detail imagery used to compliment your build & theme >>
@@ -117,6 +117,21 @@ We have a hero image, and logos for the different organisations. The logos are u
 ​
 ## Testing
 
+### User stories testing
+We wanted the user to:
+* Find NGOs they can donate to.
+    * These can be found on the donate page.
+* Find events they can take part in.
+    * These can be found on the events page.
+* See what each featured organisation does.
+    * The organisation summary explaines what each organisation does.
+
+We wanted the admin to:
+* Be able to add, delete or change the featured organisations.
+    * This can be done on the [admin page]()
+* Be able to add, delete or change the events on the website.
+    * This can be done on the [admin page]()
+
 ### Device testing
 This website was tested natively on these devices:
 
@@ -142,6 +157,8 @@ This website was tested on the following browsers:
 
 #### Python - pep8
 
+### Lighthouse
+
 ### Manual Testing
 * We tested if the data from the backend showed up correctly by asking the page to show it. 
 * We did the testing of the images link in a similar way. When the name of the image-file had been added, we checked if it showed up in the frontend. If it did not, we inspected the page and checked what the link looked like in reality. That helped us find the problems.
@@ -149,6 +166,7 @@ This website was tested on the following browsers:
 ### Bugs
 
 #### Fixed bugs
+* At first the logo images for the organisations did not show up. This was due to us having accidentally added an extra slash. To figure this out we inspected the page in the browser.
 
 #### Unfixed bugs​
 
