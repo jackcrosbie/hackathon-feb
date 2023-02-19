@@ -160,7 +160,7 @@ This website was tested on the following browsers:
 ### Validator testing
 
 #### HTML - w3c
-I put the HTML documents thru the w3c validator.
+I put the HTML documents thru the w3c validator. It did not return any errors not related to the use of django.
 
 #### CSS - Jigsaw
 
