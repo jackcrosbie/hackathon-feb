@@ -132,11 +132,12 @@ h2 {
     right: 0px;
 }
 
+/*---- Home Page Hero Donate Button ------------------*/
 #hero-donate {
-    /* position: absolute;
+    position: absolute;
     bottom: 50px;
-    left: 500px; */
-    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
 .donate-btn {
@@ -353,21 +354,18 @@ hr {
 }
 
 .social-footer i {
-    font-size: 100%;
+    font-size: 150%;
     padding-bottom: 1%;
     padding-top: 1%;
-    padding-left: 5%;
+    padding-left: 10%;
     color: white;
 }
 
-.social-footer>p {
-    display: inline-block;
+.social-footer span{
+    font-weight: 600;
+    color: white;
 }
 
-.social-footer>span {
-    position: relative;
-    right: 0;
-}
 
 .wrapper {
     display: grid;
@@ -421,20 +419,21 @@ hr {
 
 /* --- for large to medium screen 1200px and below ------------------------ */
 @media screen and (max-width: 1200px) {
-    /* header section */
+    /* --- Header for All pages ------------------------ */
     #logo img{
         max-width: 150px;
-        max-height: 150px;
+         max-height: 150px;
     }
-
+    
     #menu li{
         padding: 10px 15px 10px 15px;
     }
-
+    
     #menu a{
         font-size: 19px;
     }
     
+    /* --- Home Page ------------------------ */
     /* three pilars section */
     #three-pillars-section{
         width: 65%;
@@ -458,7 +457,7 @@ hr {
     #left-pillar, #center-pillar, #right-pillar{
         width: 100%;
         padding: 0;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
 
     /* Get involved section */
@@ -486,5 +485,9 @@ hr {
         margin: 0 auto;
         padding-bottom: 20px;
     }
+
+    /* --- Donate Page ------------------------ */
+
+    /* --- Events Page ------------------------ */
 }
     
