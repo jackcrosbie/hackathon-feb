@@ -651,6 +651,12 @@ hr {
         padding-bottom: 20px;
     }
 
+    #donate-cover-text{
+        width: 41%;
+        height: 16%;
+    }
+
+
 
 
     /* --- Events Page ------------------------ */
@@ -683,7 +689,18 @@ hr {
     }
 
     /* --- Donate Page ------------------------ */
- 
+    #donate-cover-text{
+        width: 36%;
+        height: 14%;
+    }
+
+    #donate-cover-text h2{
+        font-size: 70%;
+    }
+
+    #donate-cover-text h3{
+        font-size: 50%
+    }
 
     /* --- Events Page ------------------------ */
     .event-container h2 {
@@ -731,8 +748,7 @@ hr {
     #donate-cover-text {
         font: 150%;
         width: 300px;
-        height: 200px;
-        bottom: 150px;
+        height: 150px;
         left: 50%;
         transform: translateX(-50%)
     }
