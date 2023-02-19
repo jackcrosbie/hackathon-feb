@@ -31,6 +31,7 @@ We wanted the user to:
 * Find NGOs they can donate to.
 * Find events they can take part in.
 * See what each featured organisation does.
+* Navigate the website easily.
 
 We wanted the admin to:
 * Be able to add, delete or change the featured organisations.
@@ -125,6 +126,8 @@ We wanted the user to:
     * These can be found on the events page.
 * See what each featured organisation does.
     * The organisation summary explaines what each organisation does.
+* Navigate the website easily.
+    * There is a navbar at the top of the website. It is in the same position regardless of what page you are on.
 
 We wanted the admin to:
 * Be able to add, delete or change the featured organisations.
@@ -188,5 +191,5 @@ The organisation and event summaries are taken from the organisations websites. 
 ### Acknowledgements
 * [Erik Vodopivec Forsman](https://www.linkedin.com/in/erik-vodopivec-forsman-485b61217)
 * [James Kasetarapanya](https://www.linkedin.com/in/james-kasetarapanya-86602585/)
-* [Russ S](https://www.linkedin.com)
+* [Russell Stanley Smith](https://www.linkedin.com/in/russellstanleysmith/)
 * [Jack Crosbie](https://www.linkedin.com)
