@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Labrada&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-html { 
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,7 +39,6 @@ h2 {
     border-radius: 50%;
     left: 100px;
     margin-top: 75px;
-
     position: sticky;
     z-index: 100;
 }
@@ -75,9 +74,7 @@ h2 {
     color: #fff;
 }
 
-
 /* ---Hero image (All Pages)-------------------------*/
-
 #hero-outer {
     height: 900px;
     width: 100%;
@@ -153,8 +150,9 @@ h2 {
 
 #world-ngo-logo {
     background: url('../../media/images/world-ngo-corner-logo2.png') no-repeat bottom right;
-    height: 100%;
-    width: 100%;
+    background-size: contain;
+    height: 50%;
+    width: 50%;
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -175,7 +173,6 @@ h2 {
     font-size: 30px;
     border-radius: 5px;
     padding: 15px 60px;
-
 }
 
 #hero-donate a:hover {
@@ -190,12 +187,11 @@ h2 {
 }
 
 #welcome {
-    text-align: center;
-}
-
-#welcome {
     font-weight: 600;
     font-size: 300%;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #welcome img {
@@ -251,11 +247,12 @@ hr {
 .image-carousel {
     background-color: #ff7e20;
     height: 600px;
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 1rem;
 }
 
 .slider {
@@ -304,6 +301,7 @@ hr {
 /* --- Home Page Make a Difference section ------------------------ */
 .make-difference {
     height: 600px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -371,7 +369,7 @@ hr {
     color: white;
 }
 
-.social-footer span{
+.social-footer span {
     font-weight: 600;
     color: white;
 }
@@ -421,12 +419,19 @@ hr {
     flex-direction: column;
     align-items: center;
     padding: 5%;
-
 }
 
+#get-involved-donate img {
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    width: auto;
+}
+
+
 #get-involved-donate h2 {
-    font-size: 350%;
-    font-weight: 700;
+    font-size: 300%;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -443,7 +448,6 @@ hr {
 .card-text {
     font-size: 150%;
     padding: 1rem 0 1rem 0;
-
 }
 
 .card h3 {
@@ -463,12 +467,9 @@ hr {
     width: 90%;
     margin-bottom: 3rem;
     margin: 0 auto;
-
 }
 
-
 /* --- Event Page ------------------------ */
-
 #event-donte-btn {
     margin-top: -50px;
 }
@@ -512,6 +513,14 @@ hr {
 
 /* --- Media queries ------------------------ */
 
+/* --- for large to medium screen 1500px and below ------------------------ */
+@media screen and (max-width: 1500px) {
+    #world-ngo-logo {
+        height: 40%;
+        width: 40%;
+    }
+}
+
 /* --- for large to medium screen 1200px and below ------------------------ */
 @media screen and (max-width: 1200px) {
 
@@ -520,20 +529,20 @@ hr {
         max-width: 150px;
         max-height: 150px;
     }
-    
-    #menu li{
+
+    #menu li {
         padding: 10px 15px 10px 15px;
     }
-    
-    #menu a{
+
+    #menu a {
         font-size: 19px;
     }
-    
+
     /* --- Home Page ------------------------ */
     /* three pilars section */
-    #three-pillars-section{
-        width: 65%;
-        height: 1200px;
+    #three-pillars-section {
+        width: 90%;
+        height: 1000px;
         margin: 0 auto;
     }
 
@@ -558,9 +567,13 @@ hr {
         margin-bottom: 60px;
     }
 
+    #right-pillar {
+        margin-bottom: 20px;
+    }
+
     /* Get involved section */
 
-    #make-difference{
+    #make-difference {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -572,20 +585,155 @@ hr {
         margin-bottom: 0;
     }
 
-    #get-involved h2{
+    #get-involved h2 {
         font-size: 45px;
     }
 
-    #involved-msg img{
+    #involved-msg img {
         display: block;
-        max-width: 65px;
+        max-width: 100px;
         height: auto;
         margin: 0 auto;
         padding-bottom: 20px;
     }
 
     /* --- Donate Page ------------------------ */
+    #get-involved-donate h2 {
+        font-size: 300%
+    }
 
     /* --- Events Page ------------------------ */
+    .event-container h2 {
+        font-size: 300%;
+    }
 }
 
+/* --- for medium screens 1000px and below ------------------------ */
+@media screen and (max-width: 1000px) {
+
+    .image-for-mobile {
+        background: url('../../media/images/charity-pic-1.png') no-repeat;
+        background-size: contain;
+        height: 90%;
+        width: 90%;
+        align-items: center;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    /* --- Donate Page ------------------------ */
+    #get-involved-donate h2 {
+        font-size: 200%
+    }
+
+    /* --- Events Page ------------------------ */
+    .event-container h2 {
+        font-size: 200%;
+    }
+}
+
+/* --- for smaller screens 790px and below ------------------------ */
+@media screen and (max-width: 790px) {
+    #menu {
+        font-size: 125%;
+    }
+
+    #menu li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-carousel {
+        height: 500px;
+    }
+
+    #cover-text {
+        font: 150%;
+        width: 300px;
+        height: 130px;
+        bottom: 150px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    #events-cover-text {
+        font: 150%;
+        width: 300px;
+        height: 175px;
+        bottom: 150px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    #donate-cover-text {
+        font: 150%;
+        width: 300px;
+        height: 200px;
+        bottom: 150px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    .donate-btn {
+        font-size: 20px;
+        border-radius: 5px;
+        padding: 15px 30px;
+    }
+
+    /* --- Donate Page ------------------------ */
+    #get-involved-donate h2 {
+        font-size: 150%
+    }
+
+    /* --- Events Page ------------------------ */
+    .event-container h2 {
+        font-size: 150%;
+    }
+}
+
+/* --- for smaller screens 650px and below ------------------------ */
+@media screen and (max-width: 650px) {
+    #three-pillars-section {
+        height: 1300px;
+    }
+
+    .image-carousel {
+        display: none
+    }
+}
+
+/* --- Donate Page ------------------------ */
+#get-involved-donate h2 {
+    font-size: 100%
+}
+
+/* --- for smaller screens 575px and below ------------------------ */
+@media screen and (max-width: 575px) {
+    #logo img {
+
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    #three-pillars-section {
+        height: 1350px;
+    }
+
+    .image-carousel {
+        display: none
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #cover-text {
+        font: 120%;
+        width: 250px;
+        height: 130px;
+    }
+}
