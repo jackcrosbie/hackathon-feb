@@ -401,7 +401,7 @@ hr {
     padding: 15px 60px;
 }
 
-.donatePage-donate-btn a:hover {
+#donatePage-donate-btn a:hover {
     background-color: white;
     color: #ff7e20;
     border: 2px solid #ff7e20;
