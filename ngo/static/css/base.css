@@ -127,7 +127,7 @@ h2 {
     letter-spacing: 4px;
     text-transform: none;
     width: 400px;
-    height: 180px;
+    height: 220px;
     padding: 20px;
     position: absolute;
     bottom: 150px;
@@ -189,7 +189,7 @@ h2 {
     font-size: 300%;
 }
 
-#welcome>img {
+#welcome img {
     display: block;
     text-align: center;
     margin: 5px auto;
@@ -389,7 +389,7 @@ hr {
 
 /* --- Donate Page ------------------------ */
 .donate-make-difference {
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -409,6 +409,13 @@ hr {
     flex-direction: column;
     align-items: center;
     padding: 5%;
+
+}
+
+#get-involved-donate h2 {
+    font-size: 350%;
+    font-weight: 700;
+    text-align: center;
 }
 
 #get-involved-donate li {
@@ -419,6 +426,25 @@ hr {
 .fa-heart {
     color: #ff7e20;
     padding-right: 1rem;
+}
+
+.card-text {
+    font-size: 150%;
+
+}
+
+.text-black {
+    color: #ff7e20;
+    font-size: 125%;
+}
+
+.donate-container {
+    text-align: center;
+    height: 100%;
+    width: 90%;
+    margin-bottom: 3rem;
+    margin: 0 auto;
+
 }
 
 
@@ -438,6 +464,10 @@ hr {
 
 .events-container {
     text-align: center;
+    height: 100%;
+    width: 90%;
+    margin-bottom: 3rem;
+    margin: 0 auto;
 
 }
 
