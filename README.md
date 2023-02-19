@@ -1,14 +1,6 @@
-# Hackathon-Feb-2023
+# Helping Hands
+This project was made during the "Hackathon-Feb-2023: *World NGO Day February 27th*" at Code Institute.
 
-# NGO 
-## *World NGO Day February 27th*
-
-![image info]() - Cover image
-
-use python3 -m http.server to preview in server
-
-# <<website_name>>
-​
 ## Team Name: <<team_name>>
 ​
 [Link to Deployed Project](<<add_deployed_link_to_project_here>>)
@@ -35,29 +27,57 @@ use python3 -m http.server to preview in server
 << what paradigms of user experience did you consider, and cater to? >>
 ​
 ### User stories
-<< user stories here - don't be stingy on this 😅 you can even put down your expectations as a developer in this forum >>
+We wanted the user to:
+Find NGOs they can donate to.
+Find events they can take part in.
+See what each featured organisation does.
+
+We wanted the admin to:
+Be able to add, delete or change the featured organisations.
+Be able to add, delete or change the events on the website.
 ​
-## Technology:
+## Technology
+
+### Requirements
+```
+asgiref==3.6.0
+Django==3.2.18
+pytz==2022.7.1
+sqlparse==0.4.3
+```
 ​
-<< Detail your techstack here, and why you chose it. >>
+### Languages
+* HTML
+* CSS
+* JavaScript
+* Python
+
 ​
-<< list your languages & tools below: >>
-​
-*  << languages >>
-  * << list the langauge & reason for using it >>
-​
-* << tools >>
-  * << list the tool & reason for using it >>
+### Tools & Frameworks
+* Bootstrap - Used for styling
+* Django - Used for backend
+* PostgreSQL - Used for the database. The database is hosted on [ElephantSQL](https://www.elephantsql.com/)
 ​
 ## Initial MVP idea:
 ​
-Detail plans and scope of project here....
+Our idea started out as a simple website for finding NGOs. When we were done discussing it, we had a home page, an event page, a donation page, and a socials page. We also had a search bar.
 ​
-<< consider talking about how you planned as a team here and what tools were implemented >>
+## Actual idea & content:
 ​
-### Actual idea & content:
-​
-<< how does your final product/project match up to your initial mvp plans >>
+At the end we made the socials page and donate page into a single page. We also removed the search bar due to comming to the conclution that we would not have the time. We also developed the way the navigation looked.
+
+That means that the website has these pages:
+### Home page
+
+### Donate page
+
+### Event page
+
+Other features:
+### Navigation
+
+
+### Footer
 ​
 << detail idea / features / functionality here >>
 ​
@@ -65,12 +85,15 @@ Detail plans and scope of project here....
 ​
 ### Color Scheme:
 << detail your color palette here >>
+We chose an orange and white colour palette. These colours are often used in similar pages, and would work well with our layout ideas.
 ​
 ### Typography:
 << what font pairings did your team consider and pick? And why? >>
+We chose Helvetica due to it being the one used on the WorldNGO website. To make the two websites feel connected, we too chose to use it.
 ​
 ### Imagery:
 << Detail imagery used to compliment your build & theme >>
+We have a hero image, and logos for the different organisations. The logos are used in the list of featured organisations. It helps people to recognize the different NGOs.
 ​
 << ensure source attribution is maintained, and that you have used copyright-free material >>
 ​
@@ -93,25 +116,58 @@ Detail plans and scope of project here....
 << detail deployment methods used here, and any extraneous circumstances to run the project locally >>
 ​
 ## Testing
-<< detail testing logs here - any known bugs, and squashed bugs 🐛🐛 >>
-​
+
+### Device testing
+This website was tested natively on these devices:
+
+
+It was also tested on these devices thru Mozilla- and Google dev tools:
+
+
+### Browser testing
+This website was tested on the following browsers:
+* Mozilla Firefox
+* Google Crome
+* Microsoft Edge
+* Safari
+* DuckDuckGo (mobile)
+
+### Validator testing
+
+#### HTML 
+
+
+##### CSS - Jigsaw
+
+
+#### Python - pep8
+
+### Manual Testing
+* We tested if the data from the backend showed up correctly by asking the page to show it. 
+* We did the testing of the images link in a similar way. When the name of the image-file had been added, we checked if it showed up in the frontend. If it did not, we inspected the page and checked what the link looked like in reality. That helped us find the problems.
+
+### Bugs
+
+#### Fixed bugs
+
+#### Unfixed bugs​
+
 ## Credits
 ​
 ### Code
 << any and all code that isn't yours...must go here >>
+
 ​
 ### Content
 << any content, such as facts/references/text that isn't yours...must go here >>
+The organisation and event summaries are taken from the organisations websites. These can be found on the page right below the summary.
 ​
 ### Media
 << you may have already done this above in the Imagery section, but just in case, please attribute Media acquisition here >>
+
 ​
 ### Acknowledgements
-<< personal thanks and praise 🙌 >>
-* [Member 1 Linkedin](https://www.linkedin.com)
-* [Member 2 Linkedin](https://www.linkedin.com)
-* [Member 3 Linkedin](https://www.linkedin.com)
-* [Member 4 Linkedin](https://www.linkedin.com)
-* [Member 5 Linkedin](https://www.linkedin.com)
-* [Member 6 Linkedin](https://www.linkedin.com)
-
+* [Erik Vodopivec Forsman](https://www.linkedin.com/in/erik-vodopivec-forsman-485b61217)
+* [James Kasetarapanya](https://www.linkedin.com/in/james-kasetarapanya-86602585/)
+* [Russ S](https://www.linkedin.com)
+* [Jack Crosbie](https://www.linkedin.com)
