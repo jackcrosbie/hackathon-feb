@@ -405,7 +405,7 @@ hr {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: -5rem;
     margin-bottom: 3rem;
 }
 
@@ -439,20 +439,22 @@ hr {
 #get-involved-donate img {
     display: block;
     text-align: center;
-    max-width: 200px;
+    max-width: 130px;
     margin: 5px auto;
     width: auto;
+    padding-bottom: 30px
 }
 
 
-#get-involved-donate h2 {
-
+#make-diff-msg {
     text-align: center;
+    font-weight: 600;
+    font-size: 300%;
 }
 
 #get-involved-donate li {
-
     list-style: none;
+    font-size: 1.6em;
 }
 
 .fa-heart {
@@ -567,8 +569,6 @@ hr {
         font-size: 250%;
     }
 
-
-
     #welcome img {
         display: block;
         text-align: center;
@@ -620,9 +620,22 @@ hr {
     }
 
     /* --- Donate Page ------------------------ */
-    #get-involved-donate h2 {
-        font-size: 300%
+    #make-diff-msg {
+        padding: 30px 0;
+        margin: 30px;
+        font-size: 250%;
+        font-weight: 600;
     }
+
+    #make-diff-msg img {
+        display: block;
+        text-align: center;
+        max-width: 95px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+
 
     /* --- Events Page ------------------------ */
     .event-container h2 {
@@ -654,7 +667,7 @@ hr {
     }
 
     /* --- Donate Page ------------------------ */
-    #get-involved-donate h2 {}
+ 
 
     /* --- Events Page ------------------------ */
     .event-container h2 {
@@ -715,7 +728,7 @@ hr {
     }
 
     /* --- Donate Page ------------------------ */
-    #get-involved-donate h2 {}
+
 
     /* --- Events Page ------------------------ */
     .event-container h2 {
@@ -735,7 +748,7 @@ hr {
 }
 
 /* --- Donate Page ------------------------ */
-#get-involved-donate h2 {}
+
 
 /* --- for smaller screens 575px and below ------------------------ */
 @media screen and (max-width: 575px) {
