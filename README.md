@@ -24,7 +24,7 @@ This project was made during the "Hackathon-Feb-2023: *World NGO Day February 27
   * [Acknowledgements](#acknowledgements)
 ​
 ## User Experience
-<< what paradigms of user experience did you consider, and cater to? >>
+We wanted to cater to users wondering how they can help and/or donate to NGOs.
 ​
 ### User stories
 We wanted the user to:
@@ -90,33 +90,33 @@ The navigation consists of a navigation bar on the right and the sites logo on t
 ​
 ## Design
 ​
-### Color Scheme:
+### Color Scheme
 << detail your color palette here >>
 We chose an orange and white colour palette. These colours are often used in similar pages, and work well with our layout ideas.
 ​
-### Typography:
+### Typography
 << what font pairings did your team consider and pick? And why? >>
 We chose Helvetica due to it being the one used on the WorldNGO website. To make the two websites feel connected, we too chose to use it. It is also san serif, which is easier to read on screans than serif fonts. 
 ​
-### Imagery:
+### Imagery
 << Detail imagery used to compliment your build & theme >>
 We have a hero image, and logos for the different organisations. The logos are used in the list of featured organisations. It helps people to recognize the different NGOs.
 ​
 << ensure source attribution is maintained, and that you have used copyright-free material >>
 ​
-### Wireframes:
+### Wireframes and mockups
 ​
-* Mobile Wireframes:
-​
-<< put all your mobile wireframes here... >>
-​
-<< consider adding some notes to detail the planned components or functionality >>
-​
-* Desktop Wireframes:
-​
-<< put all your desktop wireframes here... >>
-​
-<< consider adding some notes to detail the planned components or functionality >>
+#### Wireframes
+![](media/documents/wf-home.png)
+![](media/documents/wf-events.png)
+![](media/documents/wf-donate.png)
+
+#### Mockups
+![](media/documents/mockup-donations-page.jpg)
+![](media/documents/mockup-home-1.png)
+![](media/documents/mockup-home-2.png)
+![](media/documents/mockup-home-3.png)
+![](media/documents/mockup-home-4.png)
 ​
 ​
 ## Deployment
