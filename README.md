@@ -159,8 +159,8 @@ This website was tested on the following browsers:
 
 ### Validator testing
 
-#### HTML 
-
+#### HTML - w3c
+I put the HTML documents thru the w3c validator.
 
 #### CSS - Jigsaw
 
