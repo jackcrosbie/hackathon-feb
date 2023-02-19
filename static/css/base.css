@@ -503,11 +503,8 @@ hr {
 }
 
 /* --- Event Page ------------------------ */
-#event-donte-btn {
-    margin-top: -50px;
-}
 
-.event-container {
+#event-welcome-container {
     display: flex;
     justify-content: center;
     height: 300px;
@@ -515,7 +512,7 @@ hr {
     margin: 75px 0 0 0;
 }
 
-.events-container {
+#events-container {
     text-align: center;
     height: 100%;
     width: 90%;
