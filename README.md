@@ -107,16 +107,16 @@ We have a hero image, and logos for the different organisations. The logos are u
 ### Wireframes and mockups
 ​
 #### Wireframes
-![](media/documents/wf-home.png)
-![](media/documents/wf-events.png)
-![](media/documents/wf-donate.png)
+![home](media/documents/wf-home.png)
+![events](media/documents/wf-events.png)
+![donate](media/documents/wf-donate.png)
 
 #### Mockups
-![](media/documents/mockup-donations-page.jpg)
-![](media/documents/mockup-home-1.png)
-![](media/documents/mockup-home-2.png)
-![](media/documents/mockup-home-3.png)
-![](media/documents/mockup-home-4.png)
+![donate](media/documents/mockup-donations-page.jpg)
+![home 1](media/documents/mockup-home-1.png)
+![home 2](media/documents/mockup-home-2.png)
+![home 3](media/documents/mockup-home-3.png)
+![home 4](media/documents/mockup-home-4.png)
 ​
 ​
 ## Deployment
