@@ -10,7 +10,6 @@
     <h2>World NGO day </h2>
     <h3>27th Feb 2023</h3>
   </div>
-  <div id="hero-donate"><a href="{% url 'donate' %}" class="donate-btn">DONATE</a></div>
 </section>
 
 
@@ -19,19 +18,22 @@
   <h2> <img src="{{MEDIA_URL}}/images/pillars.png" alt="3 pillars icon">
     Three Pillars of World NGO Day</h2>
   <div class="three-pillars-content-container">
-    <div class="three-pillars-headings">Celebrate
+    <div class="three-pillars-headings">
+      <h3>Celebrate</h3>
       <ul class="three-pillars-ul">
         <li>Raise awareness about NGOs impact on society</li>
         <li>Generate visibility for non-profit projects</li>
       </ul>
     </div>
-    <div class="three-pillars-headings">Commemorate
-      <ul class="three-pillars-ul commemorate">
+    <div class="three-pillars-headings">
+      <h3>Commemorate</h3>
+      <ul class="three-pillars-ul">
         <li>Present NGOs achievements and efforts</li>
         <li>Form new partnerships and find new supporters</li>
       </ul>
     </div>
-    <div class="three-pillars-headings">Collaborate
+    <div class="three-pillars-headings">
+      <h3>Collaborate</h3>
       <ul class="three-pillars-ul">
         <li>Share knowledge, expertise, and experiences with other organisations</li>
         <li>Inspire people to build a career within the non-profit sector</li>
@@ -51,7 +53,7 @@
     </div>
     <!-- slide 2 -->
     <div class="slide">
-      <img src="./ngo/media/images/brac-one.jpg" alt="BRAC volunteer teaching a lady correct hand washing technique" />
+      <img src="{{MEDIA_URL}}/images/brac-one.jpg" alt="BRAC volunteer teaching a lady correct hand washing technique" />
     </div>
 
     <!-- slide 3 -->
@@ -103,7 +105,9 @@
     <h2> <img src="{{MEDIA_URL}}/images/donation-icon.png" alt="hand holding a heart icon">Get Invovled. Make a
       Difference.</h2>
   </div>
-  <div id="donate"><a href="{% url 'donate' %}" class="donate-btn"><i class="fa-solid fa-parachute-box"></i>  DONATE</a>
+  <div class="btn-container">
+    <div id="donate"><a href="{% url 'donate' %}" class="donate-btn"><i class="fa-solid fa-parachute-box"></i>  DONATE</a>
+    </div>
   </div>
 
 </section>

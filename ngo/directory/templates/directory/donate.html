@@ -2,5 +2,57 @@
 {% load static %}
 
 {% block content %}
-
+<!-- Hero image section -->
+<section id="hero-outer">
+    <div id="hero-image"></div>
+    <div id="world-ngo-logo"></div>
+    <div id="events-cover-text">
+        <h2>Participate in an Event </h2>
+        <h3>Raise funds for NGOs</h3>
+    </div>
+</section>
+<section class="make-difference">
+    <div id="get-involved-donate">
+        <h2> <img src="{{MEDIA_URL}}/images/donation-icon.png" alt="hand holding a heart icon">Get Invovled. Make a
+        Difference.</h2>
+        <ul>
+            <li>
+                There are an estimated 10 million NGOs worldwide,
+                they need your help
+            </li>
+            <li>
+                Nearly 100 million people work for NGOs across the globe
+            </li>
+            <li>
+                31% of people have donated to charity in 2015
+            </li>
+            <li>
+                and 24% volunteered their time
+            </li>
+        </ul>
+    </div>
+    <div id="donate">
+        <a href="{% url 'donate' %}" class="donate-btn"><i class="fa-solid fa-parachute-box"></i>  DONATE</a>
+    </div>
+</section>
+<div class="events-container">
+    <div class="col-12">
+        <div class="row">
+            {% for org in orgs %}
+            <div class="card ml-4">
+                <div class="card-body">
+                    <h3 class="card-title text-black">{{ org.name }}</h3>
+                    <p class="card-text text-muted">{{ org.org }}</p>
+                    <p class="card-text text-muted">{{ org.location }}</p>
+                    <p class="card-text text-muted">Date and time: {{ org.date }} {{ org.time }}</p>
+                    <p class="card-text">{{ org.summary }}</p>
+                    <a href="{{ org.website }}" class="text-black">Website</a>
+                    <a href="{{ org.instagram }}">Instagram</a>
+                    <a href="{{ org.facebook }}">Facebook</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
 {% endblock %}

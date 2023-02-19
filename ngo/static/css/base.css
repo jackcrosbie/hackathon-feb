@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Helvetica St', sans-serif;
+    font-family: 'Oswald', 'Helvetica St', sans-serif;
     font-weight: 300;
     color: #585b5d;
+    position: relative;
+    min-height: 100vh;
 }
 
 a {
@@ -17,7 +23,7 @@ a {
 
 h1,
 h2 {
-    font-family: 'Helvetica Lt Std Condensed', 'Helvetica Std Bold Condensed', sans-serif;
+    font-family: 'Labrada', 'Helvetica Std Bold Condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: rgb(255, 126, 32);
@@ -152,12 +158,10 @@ h2 {
 
 /*----Three Pillars section ------------------*/
 #three-pillars-section {
-    height: 650px;
     width: 100%;
-    margin: 50px 0;
+    padding: 5%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -169,11 +173,19 @@ h2 {
     text-align: center;
 }
 
+#three-pillars-section h3 {
+    font-family: 'Labrada', 'Helvetica Std Bold Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
 .three-pillars-content-container {
     display: flex;
     flex-direction: row;
-    width: 90%;
     height: auto;
+    padding-top: 50px;
+    border: 1px solid black;
 }
 
 .three-pillars-headings {
@@ -193,18 +205,21 @@ h2 {
 .three-pillars-ul li {
     list-style-type: none;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     font-size: 60%;
     font-weight: 400;
     width: 80%;
     padding-bottom: 20px;
 }
 
-.commemorate {
-    padding-left: 50px;
-    padding-right: 30px;
-}
+/* --- Event Page ------------------------ */
 
+.event-container {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: auto;
+}
 
 /* --- Image carousel ------------------------ */
 .image-carousel {
@@ -283,15 +298,41 @@ h2 {
 
 }
 
-/* #donate-btn{
+#get-involved {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    height: 400px;
+}
+
+#get-involved-donate {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+
+#get-involved-donate li {
+    font-size: 2em;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.donate-btn {
     background-color: #ff7e20;
     color: white;
     text-decoration: none;
     font-size: 30px;
     border-radius: 5px;
     padding: 15px 60px;
-
-} */
+}
 
 #donate a:hover {
     background-color: white;
@@ -300,8 +341,11 @@ h2 {
 }
 
 /* --- Footer ------------------------ */
-footer {
-    height: 40px;
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
 }
 
 .social-footer {
@@ -328,4 +372,15 @@ footer {
 .social-footer > span {
     position: relative;
     right: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+.events-container {
+    text-align: center;
+    margin-top: 12em;
 }
