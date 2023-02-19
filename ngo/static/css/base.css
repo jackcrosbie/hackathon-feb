@@ -335,15 +335,6 @@ hr {
     margin-bottom: 150px;
 }
 
-.donate-btn {
-    background-color: #ff7e20;
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-    border-radius: 5px;
-    padding: 15px 60px;
-}
-
 #donate a:hover {
     background-color: white;
     color: #ff7e20;
@@ -399,6 +390,21 @@ hr {
     flex-direction: column;
     margin-top: 2rem;
     margin-bottom: 3rem;
+}
+
+.donatePage-donate-btn {
+    background-color: #ff7e20;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 15px 60px;
+}
+
+.donatePage-donate-btn a:hover {
+    background-color: white;
+    color: #ff7e20;
+    border: 2px solid #ff7e20;
 }
 
 #get-involved-donate ul {
