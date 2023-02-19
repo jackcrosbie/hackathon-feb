@@ -471,11 +471,23 @@ hr {
     text-decoration: none;
 }
 
-.text-orange {
-    color: #ff7e20;
+.direct-donate {
+    background-color: #ff7e20;
+    color: white;
+    text-decoration: none;
     font-size: 150%;
-    font-weight: 700;
-    text-decoration: underline;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.card-body a:hover{
+    background-color: white;
+    color: #ff7e20;
+    border: 2px solid #ff7e20;
+}
+
+.card-body {
+    padding-bottom: 20px;
 }
 
 .donate-container {
