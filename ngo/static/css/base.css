@@ -544,7 +544,7 @@ hr {
     /* three pilars section */
     #three-pillars-section {
         width: 90%;
-        height: 1200px;
+        height: 1000px;
         margin: 0 auto;
     }
 
@@ -605,6 +605,7 @@ hr {
     /* --- Events Page ------------------------ */
 }
 
+/* --- for medium screens 1000px and below ------------------------ */
 @media screen and (max-width: 1000px) {
 
     .image-for-mobile {
@@ -622,39 +623,53 @@ hr {
     .buttons {
         display: none;
     }
-
-
 }
 
-@media screen and (max-width: 925px) {
-
-    #three-pillars-section {
-        height: 1250px;
-    }
-
-    #left-pillar p,
-    #center-pillar p,
-    #right-pillar p {
-        font-size: 145%;
-    }
-
-}
-
+/* --- for smaller screens 790px and below ------------------------ */
 @media screen and (max-width: 790px) {
+    #menu {
+        font-size: 125%;
+    }
+
+    #menu li {
+        display: flex;
+        flex-direction: column;
+
+    }
 
     .image-carousel {
         height: 500px;
     }
 
-
-    #left-pillar p,
-    #center-pillar p,
-    #right-pillar p {
-        font-size: 125%;
+    #cover-text {
+        font: 150%;
+        width: 300px;
+        height: 130px;
+        bottom: 150px;
+        left: 50%;
+        transform: translateX(-50%)
     }
 
+    #events-cover-text {
+        font: 150%;
+        width: 300px;
+        height: 175px;
+        bottom: 150px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    #donate-cover-text {
+        font: 150%;
+        width: 300px;
+        height: 200px;
+        bottom: 150px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
 }
 
+/* --- for smaller screens 650px and below ------------------------ */
 @media screen and (max-width: 650px) {
 
     #three-pillars-section {
@@ -667,7 +682,14 @@ hr {
 
 }
 
+/* --- for smaller screens 575px and below ------------------------ */
 @media screen and (max-width: 575px) {
+
+    #logo img {
+
+        left: 50%;
+        transform: translateX(-50%)
+    }
 
     #three-pillars-section {
         height: 1350px;
@@ -675,6 +697,23 @@ hr {
 
     .image-carousel {
         display: none
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    #cover-text {
+        font: 120%;
+        width: 250px;
+        height: 130px;
+    }
+
+    .donate-btn {
+        font-size: 20px;
+        border-radius: 5px;
+        padding: 15px 30px;
+
     }
 
 }
