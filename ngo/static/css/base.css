@@ -173,7 +173,7 @@ h2 {
     display: block;
     text-align: center;
     margin: 5px auto;
-    width: 8%;
+    width: auto;
 }
 
 #left-pillar{
@@ -427,7 +427,7 @@ hr {
         height: 1200px;
         margin: 0 auto;
     }
-}
+
     #welcome {
         padding: 30px 0;
         margin: 30px;
@@ -436,4 +436,12 @@ hr {
     #welcome img{
         display: block;
         text-align: center;
+        width: auto;
     }
+
+    #left-pillar, #center-pillar, #right-pillar{
+        width: 100%;
+        padding: 0;
+    }
+}
+    
