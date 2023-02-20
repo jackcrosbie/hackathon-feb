@@ -88,7 +88,7 @@ To streamline the project, we combined the socials page and donate page into a s
 
 The website has three pages:
 ### Home page
-The home page has a unique logo designed with [Brandcrowd](https://www.brandcrowd.com/) and an inspiring Hero image with overlay text and information about World NGO Day and how people can support NGOs. It also links to the donate page and a carousel with images from the different NGOs.
+The home page has a unique logo designed with [Canva](https://www.canva.com/) and an inspiring Hero image with overlay text and information about World NGO Day and how people can support NGOs. It also links to the donate page and a carousel with images from the different NGOs.
 
 ### Donate page
 The donate page has a different hero image and inspiring overlay text. 
@@ -110,7 +110,7 @@ The navigation consists of a navigation bar on the right and the site's logo on 
 ​
 ## Design
 ​
-### Color Scheme
+### Colour Scheme
 We chose an orange and white colour palette, with dark grey for standard text items. These colours are used consistently across all the pages and work well with our layout ideas.
 ​
 ### Typography
@@ -134,7 +134,12 @@ We have several hero images and logos for different organisations. The logos are
 ![home 4](media/documents/mockup-home-4.png)
 ![donate](media/documents/mockup-donations-page.jpg)
 ​
-​
+## Future Developments​
+
+* Implement Favicon for the website.
+* Search functionality for the Donate and Event page for the user to be able to search for an Organisation or Events of their choosing.
+* Filter and Category for Event page to better filter result for user.
+
 ## Deployment
 This project was deployed with Heroku, and used Whitenoise for its static files.
 
@@ -156,6 +161,12 @@ This project was deployed with Heroku, and used Whitenoise for its static files.
 * Follow the steps on this page to set up Whitenoice. This is the same instructions I used. Don't forget to run the command "python3 manage.py collectstatic".
 * Make sure your images are on an external site, like ibb. This prevents errors related to the images.
 * Make sure the live site is working.
+
+### Deployment Issues
+
+* The initial deployment was not successful due to the structure of the files and the software not being able to locate said files.
+* An attempt to reorgansie the file was made but we still stumble upon deployment issue.
+* Due to the fact that the repository owner does not have access to Heroku for deployment, the website is deployed from a forked repository by a member of the team who have access to Heroku.
 
 ​
 ## Testing
@@ -197,8 +208,8 @@ This website was tested on the following browsers:
 
 ### Validator testing
 
-* HTML - I put the HTML documents through the w3c validator. It did not return any errors not related to the use of Django.
-* CSS - 
+* HTML - I put the HTML documents through the W3C validator. It did not return any errors not related to the use of Django.
+* CSS - All CSS is validate through W3C validator, however, there was a parse error due to the import fonts code at the top of the page, so we decided to leave that it due to the time constriant of the deployment.
 * Python - I put the code through the Code Institute [pep8 linter](https://pep8ci.herokuapp.com/). Got no errors except "line too long".
 * JavaScript - I ran the JavaScript through the [JS validator](https://jsvalidator.com/) and got no errors.
 
@@ -219,20 +230,23 @@ This website was tested on the following browsers:
 
 #### Unfixed bugs​
 
+* The Nav bar is diplaying the incorrect order of the menus when screen size is less 790px
 
 ## Credits
 Hero Images - Unsplash
-* [home page hero](https://unsplash.com/photos/_P9fwHnwhcA)
-* [donate hero](https://unsplash.com/photos/3k3l2brxmwQ)
-* [event hero](https://unsplash.com/photos/YwpFllVSpvU0)
-* [mobile slide image](https://unsplash.com/photos/sjuLxUOEMY8)
+* [Home page hero image](https://unsplash.com/photos/_P9fwHnwhcA)
+* [Donate page hero image](https://unsplash.com/photos/3k3l2brxmwQ)
+* [Event page hero image](https://unsplash.com/photos/YwpFllVSpvU0)
+* [Mobile slide image](https://unsplash.com/photos/sjuLxUOEMY8)
 * Slider Images - Unsplash
 * Icons - FontAwesome and Canva
 * Content - various NGO websites including Save the Children, Oxfam, Doctors without Borders, BRAC, World Vision, WorldNGODay.org, blog.waytobill.com
 ​
 ### Code
 
-Used a block of code from https://meyerweb.com/eric/tools/css/reset/ to avail of reset css to remove whitespace at the top of the pages. Noted in comments of the CSS.
+* Used a block of code from https://meyerweb.com/eric/tools/css/reset/ to avail of reset css to remove whitespace at the top of the pages. Noted in comments of the CSS.
+
+* Use of code block from Love  Running Walkthrough Project
 
 ​
 ### Content
@@ -245,8 +259,16 @@ The deployment part of the readme is the same as in Erik's (team-member) [Projec
 ​
 ### Acknowledgements
 Huge thanks to everyone on the team who worked exceptionally hard to pull this amazing project together in such a short time.
-* [Erik Vodopivec Forsman](https://www.linkedin.com/in/erik-vodopivec-forsman-485b61217)
-* [James Kasetarapanya](https://www.linkedin.com/in/james-kasetarapanya-86602585/)
-* [Russell Stanley Smith](https://www.linkedin.com/in/russellstanleysmith/)
-* [Jack Crosbie](https://www.linkedin.com/in/jack-crosbie-27770224a/)
+* Erik Vodopivec Forsman
+    * [LinkedIn](https://www.linkedin.com/in/erik-vodopivec-forsman-485b61217)
+    * [GitHub](https://github.com/11bus11)
+* James Supachok Kasetarapanya
+    * [LinkedIn](https://www.linkedin.com/in/james-kasetarapanya-86602585/)
+    * [GitHub](https://github.com/yamesjamess)
+* Russell Stanley Smith
+    * [LinkedIn](https://www.linkedin.com/in/russellstanleysmith/)
+    * [GitHub](https://github.com/rstan-dev)
+* Jack Crosbie
+    * [LinkedIn](https://www.linkedin.com/in/jack-crosbie-27770224a/)
+    * [GitHub](https://github.com/jackcrosbie)
 * George Philip
