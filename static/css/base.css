@@ -376,14 +376,13 @@ hr {
     text-align: center;
     background-color: #ff7e20;
     position: relative;
-
 }
 
 .social-footer>li {
     display: inline;
 }
 
-.social-footer i {
+.social-footer li {
     font-size: 150%;
     padding-bottom: 1%;
     padding-top: 1%;
