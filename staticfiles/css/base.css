@@ -4,25 +4,93 @@
 
 /*--- Code added from  reset css to remove white space at top of page----------------------*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 html {
@@ -40,9 +108,9 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 a {
@@ -59,6 +127,10 @@ h2 {
     color: rgb(255, 126, 32);
 }
 
+p {
+    font-family: 'Helvetica Std Bold Condensed', sans-serif;
+}
+
 #logo img {
     float: left;
     height: 250px;
@@ -71,8 +143,10 @@ h2 {
 }
 
 
-#menu, #mobile-menu{
-    font-size: 150%;
+#menu,
+#mobile-menu {
+    font-family: 'Helvetica Std Bold Condensed', sans-serif;
+    font-size: 120%;
     letter-spacing: 4px;
     margin-right: 75px;
     position: sticky;
@@ -151,7 +225,7 @@ h2 {
     letter-spacing: 4px;
     text-transform: none;
     width: 400px;
-    height: 160px;
+    height: 180px;
     padding: 20px;
     position: absolute;
     bottom: 150px;
@@ -216,6 +290,7 @@ h2 {
 }
 
 .donate-btn {
+    font-family: 'Helvetica Std Bold Condensed', sans-serif;
     background-color: #ff7e20;
     color: white;
     text-decoration: none;
@@ -403,8 +478,9 @@ hr {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 1rem;
     margin-bottom: 1rem;
-  }
+}
 
 .social-footer li {
     list-style: none;
@@ -424,11 +500,11 @@ hr {
 #copyright {
     display: flex;
     justify-content: center;
-    font-size: 1.5em;
+    font-size: 1em;
     padding-bottom: 2%;
 }
-  
-  
+
+
 
 .wrapper {
     display: grid;
@@ -440,7 +516,8 @@ hr {
 /* --- Donate Page ------------------------ */
 
 .donate-make-difference {
-    height: 700px;
+    font-family: 'Helvetica Std Bold Condensed', sans-serif;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -456,6 +533,7 @@ hr {
     font-size: 30px;
     border-radius: 5px;
     padding: 15px 60px;
+    margin-top: 3rem;
 }
 
 #donatePage-donate-btn a:hover {
@@ -465,15 +543,20 @@ hr {
 }
 
 #get-involved-donate ul {
-    margin-top: 2rem;
+    margin-top: 1rem;
+}
+
+#get-involved-donate ul li {
+    margin-bottom: 1rem;
 }
 
 #get-involved-donate {
     display: flex;
-    width: 100%;
+    width: 85%;
     flex-direction: column;
     align-items: center;
-    padding: 5%;
+    margin-bottom: 4rem;
+
 }
 
 #get-involved-donate img {
@@ -490,6 +573,7 @@ hr {
     text-align: center;
     font-weight: 600;
     font-size: 300%;
+    margin-bottom: 20px;
 }
 
 #get-involved-donate li {
@@ -504,7 +588,7 @@ hr {
 
 .card-text {
     font-size: 150%;
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 0 3rem 0;
 }
 
 .card h3 {
@@ -512,6 +596,7 @@ hr {
 }
 
 .direct-donate {
+    font-family: 'Helvetica Std Bold Condensed', sans-serif;
     background-color: #ff7e20;
     color: white;
     text-decoration: none;
@@ -520,7 +605,7 @@ hr {
     border-radius: 5px;
 }
 
-.card-body a:hover{
+.card-body a:hover {
     background-color: white;
     color: #ff7e20;
     border: 2px solid #ff7e20;
@@ -561,12 +646,12 @@ hr {
 }
 
 .event-welcome-container img {
-display: block;
-text-align: center;
-max-width: 130px;
-margin: 5px auto;
-width: auto;
-padding-bottom: 30px
+    display: block;
+    text-align: center;
+    max-width: 130px;
+    margin: 5px auto;
+    width: auto;
+    padding-bottom: 30px
 }
 
 .event-heading {
@@ -577,6 +662,7 @@ padding-bottom: 30px
 
 #locale-container {
     display: inline-block;
+
 }
 
 #locale-selector {
@@ -584,6 +670,7 @@ padding-bottom: 30px
 }
 
 #locale-selector li {
+    font-family: 'Helvetica Std Bold Condensed', sans-serif;
     background-color: #ff7e20;
     display: inline-block;
     text-align: center;
@@ -592,16 +679,16 @@ padding-bottom: 30px
     border-radius: 5px;
 }
 
-#locale-selector a{
+#locale-selector a {
     color: #fff;
 }
 
-#locale-selector li:hover{
+#locale-selector li:hover {
     background-color: white;
     border: 2px solid #ff7e20;
 }
 
-#locale-selector li:hover a{
+#locale-selector li:hover a {
     color: #ff7e20;
 }
 
@@ -627,7 +714,12 @@ padding-bottom: 30px
     margin-bottom: 1rem;
 }
 
-.participate{
+.card-title {
+    font-family: 'Helvetica Std Bold Condensed', sans-serif;
+}
+
+.participate {
+    font-family: 'Helvetica Std Bold Condensed', sans-serif;
     background-color: #ff7e20;
     color: white;
     text-decoration: none;
@@ -721,8 +813,6 @@ padding-bottom: 30px
 
     /* --- Donate Page ------------------------ */
     #make-diff-msg {
-        padding: 30px 0;
-        margin: 30px;
         font-size: 250%;
         font-weight: 600;
     }
@@ -735,10 +825,10 @@ padding-bottom: 30px
         padding-bottom: 20px;
     }
 
-    #donate-cover-text{
-        width: 41%;
-        height: 16%;
+    #get-involved-donate ul {
+        font-size: 90%;
     }
+
 
 
     /* --- Events Page ------------------------ */
@@ -762,175 +852,197 @@ padding-bottom: 30px
     }
 
     #locale-selector li {
+        font-family: 'Helvetica Std Bold Condensed', sans-serif;
         padding: 10px 20px;
-}
-
-/* --- for medium screens 1000px and below ------------------------ */
-@media screen and (max-width: 1000px) {
-
-    .image-for-mobile {
-        background: url('../../media/images/charity-pic-1.png') no-repeat;
-        background-size: contain;
-        height: 90%;
-        width: 90%;
-        align-items: center;
     }
 
-    #menu {
-        display: none;
+    /* --- for medium screens 1000px and below ------------------------ */
+    @media screen and (max-width: 1000px) {
+
+        .image-for-mobile {
+            background: url('../../media/images/charity-pic-1.png') no-repeat;
+            background-size: contain;
+            height: 90%;
+            width: 90%;
+            align-items: center;
+        }
+
+
+
+        .slider {
+            display: none;
+        }
+
+        .buttons {
+            display: none;
+        }
+
+        #involved-msg {
+            font-size: 80%;
+        }
+
+        #cover-text {
+            font-size: 150%;
+            width: 350px;
+            height: 100px;
+        }
+
+        .donate-btn {
+            font-size: 20px;
+            border-radius: 5px;
+            padding: 15px 30px;
+        }
+
+        /* --- Donate Page ------------------------ */
+        #donate-cover-text {
+            font-size: 150%;
+            width: 350px;
+            height: 150px;
+        }
+
+        /* --- Events Page ------------------------ */
+        .event-container h2 {
+            font-size: 200%;
+        }
+
+        #events-cover-text {
+            font-size: 150%;
+            width: 350px;
+            height: 150px;
+        }
+
     }
 
-    #mobile-menu {
-        width: 100vw;
-        display: block;
-        visibility: visible;
-        float: right;
-        height: 0;
-        padding-left: 0;
-        align-self: center;
-        left: 0px;
-        margin-top: 100px;
-        position: sticky;
+    /* --- for smaller screens 790px and below ------------------------ */
+    @media screen and (max-width: 790px) {
+
+        #logo img {
+
+            left: 50%;
+            transform: translateX(-50%)
+        }
+
+        #menu {
+            display: none;
+        }
+
+        #mobile-menu {
+            width: 100vw;
+            display: block;
+            visibility: visible;
+            float: right;
+            height: 0;
+            padding-left: 0;
+            align-self: center;
+            left: 0px;
+            margin-top: 100px;
+            position: sticky;
+        }
+
+        #mobile-menu ul {
+            left: 50%;
+            transform: translateX(-50%);
+            position: sticky;
+        }
+
+        #mobile-menu li {
+            list-style: none;
+            margin: 0;
+            background-color: rgba(255, 126, 32, 0.85);
+            padding: 10px;
+            text-transform: uppercase;
+        }
+
+        #mobile-menu a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .image-carousel {
+            height: 500px;
+        }
+
+        #cover-text {
+            font-size: 150%;
+            width: 300px;
+            height: 100px;
+            bottom: 150px;
+            left: 50%;
+            transform: translateX(-50%)
+        }
+
+        #get-involved h2 {
+            font-size: 35px;
+        }
+
+        .donate-btn {
+            font-size: 20px;
+            border-radius: 5px;
+            padding: 15px 30px;
+        }
+
+        /* --- Donate Page ------------------------ */
+
+        #donate-cover-text {
+            left: 50%;
+            transform: translateX(-50%)
+        }
+
+        #get-involved-donate {
+            display: flex;
+            width: 75%;
+        }
+
+        /* --- Events Page ------------------------ */
+
+        #events-cover-text {
+            left: 50%;
+            transform: translateX(-50%)
+        }
     }
 
-    #mobile-menu ul {
-        left: 50%;
-        transform: translateX(-50%);
-        position: sticky;
-    }
+    /* --- for smaller screens 650px and below ------------------------ */
+    @media screen and (max-width: 650px) {
+        #three-pillars-section {
+            height: 1300px;
+        }
 
-    #mobile-menu li {
-        list-style: none;
-        margin: 0;
-        background-color: rgba(255, 126, 32, 0.85);
-        padding: 10px;
-        text-transform: uppercase;
-    }
-    
-    #mobile-menu a {
-        text-decoration: none;
-        color: #fff;
-    }
-
-    .slider {
-        display: none;
-    }
-
-    .buttons {
-        display: none;
-    }
-
-    #involved-msg {
-        font-size: 80%;
+        .image-carousel {
+            display: none
+        }
     }
 
     /* --- Donate Page ------------------------ */
-    #donate-cover-text{
-        width: 36%;
-        height: 14%;
+
+
+    /* --- for smaller screens 575px and below ------------------------ */
+    @media screen and (max-width: 575px) {
+
+        #three-pillars-section {
+            height: 1350px;
+        }
+
+        .image-carousel {
+            display: none
+        }
     }
 
-    #donate-cover-text h2{
-        font-size: 70%;
+    @media screen and (max-width: 450px) {
+        #cover-text {
+            font-size: 120%;
+            width: 250px;
+            height: 110px;
+        }
+
+        #donate-cover-text {
+            font-size: 120%;
+            width: 250px;
+            height: 150px;
+        }
+
+        #events-cover-text {
+            font-size: 120%;
+            width: 250px;
+            height: 130px;
+        }
     }
-
-    #donate-cover-text h3{
-        font-size: 50%
-    }
-
-    /* --- Events Page ------------------------ */
-    .event-container h2 {
-        font-size: 200%;
-    }
-}
-
-/* --- for smaller screens 790px and below ------------------------ */
-@media screen and (max-width: 790px) {
-
-    .image-carousel {
-        height: 500px;
-    }
-
-    #cover-text {
-        font: 150%;
-        width: 300px;
-        height: 130px;
-        bottom: 150px;
-        left: 50%;
-        transform: translateX(-50%)
-    }
-
-    #get-involved h2 {
-        font-size: 35px;
-    }
-
-    #events-cover-text {
-        font: 150%;
-        width: 300px;
-        height: 175px;
-        bottom: 150px;
-        left: 50%;
-        transform: translateX(-50%)
-    }
-
-    #donate-cover-text {
-        font: 150%;
-        width: 300px;
-        height: 150px;
-        left: 50%;
-        transform: translateX(-50%)
-    }
-
-    .donate-btn {
-        font-size: 20px;
-        border-radius: 5px;
-        padding: 15px 30px;
-    }
-
-    /* --- Donate Page ------------------------ */
-
-
-    /* --- Events Page ------------------------ */
-    .event-container h2 {
-        font-size: 150%;
-    }
-}
-
-/* --- for smaller screens 650px and below ------------------------ */
-@media screen and (max-width: 650px) {
-    #three-pillars-section {
-        height: 1300px;
-    }
-
-    .image-carousel {
-        display: none
-    }
-}
-
-/* --- Donate Page ------------------------ */
-
-
-/* --- for smaller screens 575px and below ------------------------ */
-@media screen and (max-width: 575px) {
-    #logo img {
-
-        left: 50%;
-        transform: translateX(-50%)
-    }
-
-    #three-pillars-section {
-        height: 1350px;
-    }
-
-    .image-carousel {
-        display: none
-    }
-}
-
-@media screen and (max-width: 450px) {
-    #cover-text {
-        font: 120%;
-        width: 250px;
-        height: 130px;
-    }
-}
