@@ -1,7 +1,7 @@
 # Helping Hands
 This project was made during the "Hackathon-Feb-2023: *World NGO Day February 27th*" at Code Institute.
 
-## Team Name: <<team_name>>
+## Team Name: Helping Hands
 ​
 [Link to Deployed Project](https://helping-hand-ci.herokuapp.com)
 ​
@@ -107,21 +107,16 @@ The navigation consists of a navigation bar on the right and the sites logo on t
 ## Design
 ​
 ### Color Scheme
-<< detail your color palette here >>
 We chose an orange and white colour palette. These colours are often used in similar pages, and work well with our layout ideas.
 ​
 ### Typography
-<< what font pairings did your team consider and pick? And why? >>
 We chose Helvetica due to it being the one used on the WorldNGO website. To make the two websites feel connected, we too chose to use it. It is also san serif, which is easier to read on screans than serif fonts. 
 ​
 ### Imagery
-<< Detail imagery used to compliment your build & theme >>
 We have a hero image, and logos for the different organisations. The logos are used in the list of featured organisations. It helps people to recognize the different NGOs.
-​
-<< ensure source attribution is maintained, and that you have used copyright-free material >>
-​
+
 ### Wireframes and mockups
-​
+
 #### Wireframes
 ![home](media/documents/wf-home.png)
 ![events](media/documents/wf-events.png)
@@ -223,13 +218,10 @@ Used a block of code from https://meyerweb.com/eric/tools/css/reset/ to avail of
 
 ​
 ### Content
-<< any content, such as facts/references/text that isn't yours...must go here >>
 The organisation and event summaries are taken from the organisations websites. These can be found on the page right below the summary.
 
 The deployment part of the readme is the same as in Erik's (team-member) [Project 4](https://github.com/11bus11/theatre-booking).
 ​
-### Media
-<< you may have already done this above in the Imagery section, but just in case, please attribute Media acquisition here >>
 
 ​
 ### Acknowledgements
