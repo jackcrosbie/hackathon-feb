@@ -574,6 +574,7 @@ padding-bottom: 30px
 .row h3 {
     font-size: 200%;
     padding: 2rem;
+    color: #ff7e20;
 }
 
 .event-container h2 {
@@ -584,6 +585,15 @@ padding-bottom: 30px
 
 .card {
     margin-bottom: 1rem;
+}
+
+.participate{
+    background-color: #ff7e20;
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 
 /* --- Media queries ------------------------ */
