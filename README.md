@@ -197,6 +197,10 @@ This website was tested natively on these devices:
 
 It was also tested on these devices with Mozilla- and Google dev tools:
 
+![Mobile version](/media/documents/mobile-view.jpg)
+![Tablet version](/media/documents/tablet-view.jpg)
+![Laptop version](media/documents/laptop-view.jpg)
+
 
 ### Browser testing
 This website was tested on the following browsers:
@@ -214,8 +218,12 @@ This website was tested on the following browsers:
 * JavaScript - I ran the JavaScript through the [JS validator](https://jsvalidator.com/) and got no errors.
 
 ![JS validator result](media/documents/js-validator.JPG)
+![CSS validator result](media/documents/css-validation-1.jpg)
 
 ### Lighthouse
+
+* There are several issues that need to be addressed to improve the performance of the website 
+![Light House report](media/documents/lighthouse-report.jpg))
 
 ### Manual Testing
 * We tested if the data from the backend showed up correctly by asking the page to show it. 
@@ -228,9 +236,15 @@ This website was tested on the following browsers:
 
 * Fixed an issue where the body tag wasn't completely filling the html tag. After searching through all the css I could not locate the issue. I used a block of generic code from reset css and it was able to remove the whitespace at the top of the pages.
 
+* There was a problem with some of the fonts, caused by a conflict in the CSS.  this was overcome by respscifying the correct font-family for each class and id as required
+
 #### Unfixed bugs​
 
 * The Nav bar is diplaying the incorrect order of the menus when screen size is less 790px
+* The Donate button under make a difference on the Donate page - directs to the Donate Page - this should direct somewhere else
+* Light House report performance is poor largely due to the Hero Images that need to be optimised properly
+* The fonts on the buttons of the slider are incorrect, they need to be algned to the standard font on the website
+* Understanding what caused the base font to be overruled.
 
 ## Credits
 Hero Images - Unsplash
