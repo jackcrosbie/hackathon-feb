@@ -412,7 +412,7 @@ hr {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: -5rem;
     margin-bottom: 3rem;
 }
 
@@ -446,20 +446,22 @@ hr {
 #get-involved-donate img {
     display: block;
     text-align: center;
-    max-width: 200px;
+    max-width: 130px;
     margin: 5px auto;
     width: auto;
+    padding-bottom: 30px
 }
 
 
-#get-involved-donate h2 {
-
+#make-diff-msg {
     text-align: center;
+    font-weight: 600;
+    font-size: 300%;
 }
 
 #get-involved-donate li {
-
     list-style: none;
+    font-size: 1.6em;
 }
 
 .fa-heart {
@@ -476,11 +478,23 @@ hr {
     text-decoration: none;
 }
 
-.text-black {
-    color: #ff7e20;
+.direct-donate {
+    background-color: #ff7e20;
+    color: white;
+    text-decoration: none;
     font-size: 150%;
-    font-weight: 700;
-    text-decoration: underline;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.card-body a:hover{
+    background-color: white;
+    color: #ff7e20;
+    border: 2px solid #ff7e20;
+}
+
+.card-body {
+    padding-bottom: 20px;
 }
 
 .donate-container {
@@ -491,12 +505,13 @@ hr {
     margin: 0 auto;
 }
 
-/* --- Event Page ------------------------ */
-#event-donte-btn {
-    margin-top: -50px;
+.card-image {
+    max-width: 100%;
 }
 
-.event-container {
+/* --- Event Page ------------------------ */
+
+.event-welcome-container {
     display: flex;
     justify-content: center;
     height: 300px;
@@ -512,6 +527,51 @@ hr {
     margin: 0 auto;
 }
 
+.event-welcome-container img {
+display: block;
+text-align: center;
+max-width: 130px;
+margin: 5px auto;
+width: auto;
+padding-bottom: 30px
+}
+
+.event-heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 300%;
+}
+
+#locale-container {
+    display: inline-block;
+}
+
+#locale-selector {
+    font-size: 150%;
+}
+
+#locale-selector li {
+    background-color: #ff7e20;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#locale-selector a{
+    color: #fff;
+}
+
+#locale-selector li:hover{
+    background-color: white;
+    border: 2px solid #ff7e20;
+}
+
+#locale-selector li:hover a{
+    color: #ff7e20;
+}
+
 .row h2 {
     color: #585b5d;
     font-size: 300%;
@@ -521,6 +581,7 @@ hr {
 .row h3 {
     font-size: 200%;
     padding: 2rem;
+    color: #ff7e20;
 }
 
 .event-container h2 {
@@ -531,6 +592,15 @@ hr {
 
 .card {
     margin-bottom: 1rem;
+}
+
+.participate{
+    background-color: #ff7e20;
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 
 /* --- Media queries ------------------------ */
@@ -565,8 +635,6 @@ hr {
         margin: 30px;
         font-size: 250%;
     }
-
-
 
     #welcome img {
         display: block;
@@ -619,13 +687,47 @@ hr {
     }
 
     /* --- Donate Page ------------------------ */
-    #get-involved-donate h2 {
-        font-size: 300%
+    #make-diff-msg {
+        padding: 30px 0;
+        margin: 30px;
+        font-size: 250%;
+        font-weight: 600;
     }
 
+    #make-diff-msg img {
+        display: block;
+        text-align: center;
+        max-width: 95px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    #donate-cover-text{
+        width: 41%;
+        height: 16%;
+    }
+
+
+
+
     /* --- Events Page ------------------------ */
-    .event-container h2 {
-        font-size: 300%;
+    .event-heading {
+        padding: 30px 0;
+        margin: 30px;
+        font-size: 250%;
+        font-weight: 600;
+    }
+
+    .event-welcome-container img {
+        display: block;
+        text-align: center;
+        max-width: 95px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .event-welcome-container {
+        margin: 0;
     }
 }
 
@@ -689,7 +791,18 @@ hr {
     }
 
     /* --- Donate Page ------------------------ */
-    #get-involved-donate h2 {}
+    #donate-cover-text{
+        width: 36%;
+        height: 14%;
+    }
+
+    #donate-cover-text h2{
+        font-size: 70%;
+    }
+
+    #donate-cover-text h3{
+        font-size: 50%
+    }
 
     /* --- Events Page ------------------------ */
     .event-container h2 {
@@ -729,8 +842,7 @@ hr {
     #donate-cover-text {
         font: 150%;
         width: 300px;
-        height: 200px;
-        bottom: 150px;
+        height: 150px;
         left: 50%;
         transform: translateX(-50%)
     }
@@ -742,7 +854,7 @@ hr {
     }
 
     /* --- Donate Page ------------------------ */
-    #get-involved-donate h2 {}
+
 
     /* --- Events Page ------------------------ */
     .event-container h2 {
@@ -762,7 +874,7 @@ hr {
 }
 
 /* --- Donate Page ------------------------ */
-#get-involved-donate h2 {}
+
 
 /* --- for smaller screens 575px and below ------------------------ */
 @media screen and (max-width: 575px) {
