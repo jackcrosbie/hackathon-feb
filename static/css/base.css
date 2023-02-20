@@ -494,7 +494,7 @@ hr {
 }
 
 .card-body {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .donate-container {
@@ -729,6 +729,9 @@ padding-bottom: 30px
     .event-welcome-container {
         margin: 0;
     }
+
+    #locale-selector li {
+        padding: 10px 20px;
 }
 
 /* --- for medium screens 1000px and below ------------------------ */
