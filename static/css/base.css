@@ -368,33 +368,43 @@ hr {
 .footer {
     bottom: 0;
     width: 100%;
-    height: 2.5rem;
     margin-top: 2rem;
+    background-color: #ff7e20;
 }
 
 .social-footer {
-    text-align: center;
-    background-color: #ff7e20;
-    position: relative;
-}
-
-.social-footer>li {
-    display: inline;
-}
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
 
 .social-footer li {
-    font-size: 150%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    padding-left: 10%;
+    list-style: none;
+    color: white;
+    font-size: 2.5em;
+    padding: 1%;
+}
+
+.social-footer a {
     color: white;
 }
 
-.social-footer span {
-    font-weight: 600;
-    color: white;
+.social-footer a:hover {
+    color: blueviolet;
+}
+  
+#copyright {
+    display: flex;
 }
 
+#copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+  
+  
 
 .wrapper {
     display: grid;
@@ -705,8 +715,6 @@ padding-bottom: 30px
         width: 41%;
         height: 16%;
     }
-
-
 
 
     /* --- Events Page ------------------------ */
