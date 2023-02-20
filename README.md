@@ -3,7 +3,7 @@ This project was made during the "Hackathon-Feb-2023: *World NGO Day February 27
 
 ## Team Name: <<team_name>>
 ​
-[Link to Deployed Project](<<add_deployed_link_to_project_here>>)
+[Link to Deployed Project](https://helping-hand-ci.herokuapp.com)
 ​
 ## Contents(#contents)
 ​
@@ -41,10 +41,26 @@ We wanted the admin to:
 
 ### Requirements
 ```
-asgiref==3.6.0
-Django==3.2.18
-pytz==2022.7.1
+asgiref==3.5.2
+chardet==3.0.4
+click==8.1.3
+dj-database-url==0.5.0
+Django==3.2.16
+django-allauth==0.41.0
+gunicorn==20.1.0
+idna==2.8
+itsdangerous==2.1.2
+oauthlib==3.1.1
+psycopg2==2.9.5
+psycopg2-binary==2.9.5
+python3-openid==3.2.0
+pytz==2022.6
+requests==2.22.0
+requests-oauthlib==1.3.0
 sqlparse==0.4.3
+urllib3==1.25.11
+Werkzeug==2.2.2
+whitenoise==6.3.0
 ```
 ​
 ### Languages
@@ -120,7 +136,7 @@ We have a hero image, and logos for the different organisations. The logos are u
 ​
 ​
 ## Deployment
-This project was deployed with Heroku, and used Whitenoice for its static files.
+This project was deployed with Heroku, and used Whitenoise for its static files.
 
 * Create an account at Heroku, and do not forget you need to confirm your e-mail to do this.
 * Create a list of dependencies in a text file named requirements (pip3 freeze > requirements.txt).
@@ -176,10 +192,10 @@ This website was tested on the following browsers:
 
 ### Validator testing
 
-* HTML - I put the HTML documents thru the w3c validator. It did not return any errors not related to the use of django.
+* HTML - I put the HTML documents through the w3c validator. It did not return any errors not related to the use of django.
 * CSS - 
-* Python - I put the code thru the Code Institute [pep8 linter](https://pep8ci.herokuapp.com/). Got no errors exept "line to long".
-* JavaScript - I ran the JavaScript thru the [JS validator](https://jsvalidator.com/) and got no errors.
+* Python - I put the code through the Code Institute [pep8 linter](https://pep8ci.herokuapp.com/). Got no errors exept "line to long".
+* JavaScript - I ran the JavaScript through the [JS validator](https://jsvalidator.com/) and got no errors.
 
 ![JS validator result](media/documents/js-validator.JPG)
 
@@ -207,7 +223,7 @@ This website was tested on the following browsers:
 << any content, such as facts/references/text that isn't yours...must go here >>
 The organisation and event summaries are taken from the organisations websites. These can be found on the page right below the summary.
 
-The deployment part of the readme is the same as in Erik's (team-mamber) [Project 4](https://github.com/11bus11/theatre-booking).
+The deployment part of the readme is the same as in Erik's (team-member) [Project 4](https://github.com/11bus11/theatre-booking).
 ​
 ### Media
 << you may have already done this above in the Imagery section, but just in case, please attribute Media acquisition here >>
@@ -217,4 +233,4 @@ The deployment part of the readme is the same as in Erik's (team-mamber) [Projec
 * [Erik Vodopivec Forsman](https://www.linkedin.com/in/erik-vodopivec-forsman-485b61217)
 * [James Kasetarapanya](https://www.linkedin.com/in/james-kasetarapanya-86602585/)
 * [Russell Stanley Smith](https://www.linkedin.com/in/russellstanleysmith/)
-* [Jack Crosbie](https://www.linkedin.com)
+* [Jack Crosbie](https://www.linkedin.com/in/jack-crosbie-27770224a/)
