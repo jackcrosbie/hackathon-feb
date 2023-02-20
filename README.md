@@ -210,13 +210,16 @@ This website was tested on the following browsers:
 #### Fixed bugs
 * At first the logo images for the organisations did not show up. This was due to us having accidentally added an extra slash. To figure this out we inspected the page in the browser.
 
+* Fixed an issue where the body tag wasn't completely filling the html tag. After searching through all the css I could not locate the issue. I used a block of generic code from reset css and it was able to remove the whitespace at the top of the pages.
+
 #### Unfixed bugs​
-* The body does not fill the whole page. There is a small part on the top of the page where the body tag does not reach.
+
 
 ## Credits
 ​
 ### Code
-<< any and all code that isn't yours...must go here >>
+
+Used a block of code from https://meyerweb.com/eric/tools/css/reset/ to avail of reset css to remove whitespace at the top of the pages. Noted in comments of the CSS.
 
 ​
 ### Content
