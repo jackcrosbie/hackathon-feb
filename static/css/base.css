@@ -420,15 +420,12 @@ hr {
 .social-footer a:hover {
     color: blueviolet;
 }
-  
-#copyright {
-    display: flex;
-}
 
 #copyright {
     display: flex;
     justify-content: center;
     font-size: 1.5em;
+    padding-bottom: 2%;
 }
   
   
