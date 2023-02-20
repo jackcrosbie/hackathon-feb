@@ -43,7 +43,8 @@ h2 {
     z-index: 100;
 }
 
-#menu {
+
+#menu, #mobile-menu{
     font-size: 150%;
     letter-spacing: 4px;
     margin-right: 75px;
@@ -67,6 +68,12 @@ h2 {
 
 #menu a:hover {
     border-bottom: 1px solid #585b5d;
+}
+
+#mobile-menu {
+    display: none;
+    visibility: hidden;
+    height: 0;
 }
 
 .active {
@@ -545,14 +552,6 @@ hr {
         max-height: 150px;
     }
 
-    #menu li {
-        padding: 10px 15px 10px 15px;
-    }
-
-    #menu a {
-        font-size: 19px;
-    }
-
     /* --- Home Page ------------------------ */
     /* three pilars section */
     #three-pillars-section {
@@ -641,6 +640,42 @@ hr {
         align-items: center;
     }
 
+    #menu {
+        display: none;
+    }
+
+    #mobile-menu {
+        width: 100vw;
+        display: block;
+        visibility: visible;
+        float: right;
+        height: 0;
+        padding-left: 0;
+        align-self: center;
+        left: 0px;
+        margin-top: 100px;
+        position: sticky;
+    }
+
+    #mobile-menu ul {
+        left: 50%;
+        transform: translateX(-50%);
+        position: sticky;
+    }
+
+    #mobile-menu li {
+        list-style: none;
+        margin: 0;
+        background-color: rgba(255, 126, 32, 0.85);
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    
+    #mobile-menu a {
+        text-decoration: none;
+        color: #fff;
+    }
+
     .slider {
         display: none;
     }
@@ -664,14 +699,6 @@ hr {
 
 /* --- for smaller screens 790px and below ------------------------ */
 @media screen and (max-width: 790px) {
-    #menu {
-        font-size: 125%;
-    }
-
-    #menu li {
-        display: flex;
-        flex-direction: column;
-    }
 
     .image-carousel {
         height: 500px;

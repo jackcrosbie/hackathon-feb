@@ -37,9 +37,9 @@
       </a>
     </div>
     <nav>
-      <ul id="menu">
+      <ul id="menu" class="">
         <li>
-          <a href="{% url 'events' %}" class="active">Events</a>
+          <a href="{% url 'events' %}" >Events</a>
         </li>
         <li>
           <a href="{% url 'donate' %}">Donate</a>
@@ -48,6 +48,19 @@
           <a href="{% url 'home' %}">Home</a>
         </li>
       </ul>
+    </nav>
+    <nav id="mobile-menu" class="d-flex d-inline">
+        <ul>
+            <li>
+              <a href="{% url 'events' %}" >Events</a>
+            </li>
+            <li>
+              <a href="{% url 'donate' %}">Donate</a>
+            </li>
+            <li>
+              <a href="{% url 'home' %}">Home</a>
+            </li>
+        </ul>
     </nav>
   </header>
   {% block content %}
