@@ -535,6 +535,36 @@ padding-bottom: 30px
     font-size: 300%;
 }
 
+#locale-container {
+    display: inline-block;
+}
+
+#locale-selector {
+    font-size: 150%;
+}
+
+#locale-selector li {
+    background-color: #ff7e20;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#locale-selector a{
+    color: #fff;
+}
+
+#locale-selector li:hover{
+    background-color: white;
+    border: 2px solid #ff7e20;
+}
+
+#locale-selector li:hover a{
+    color: #ff7e20;
+}
+
 .row h2 {
     color: #585b5d;
     font-size: 300%;
